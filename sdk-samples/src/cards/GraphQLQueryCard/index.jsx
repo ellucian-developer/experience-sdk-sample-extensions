@@ -3,7 +3,7 @@ import { withStyles } from '@ellucian/react-design-system/core/styles';
 import { spacing10, spacing40 } from '@ellucian/react-design-system/core/styles/tokens';
 import PropTypes from 'prop-types';
 import React, { Fragment, useEffect, useState } from 'react';
-import { withIntl } from '../utils/ReactIntlProviderWrapper';
+import { withIntl } from '../../utils/ReactIntlProviderWrapper';
 import { useIntl } from 'react-intl';
 
 const styles = () => ({
