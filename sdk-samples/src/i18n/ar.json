@@ -1,0 +1,31 @@
+{
+  "messages": {
+    "CacheCard-reset": "إعادة الضبط",
+    "CacheCard-viewCount": "عدد مرات العرض: {viewedCount}",
+    "DrilldownCard-clickMe": "انقر هنا",
+    "DrilldownCard-clicks": "عدد النقرات: {count}",
+    "DrilldownCard-goBack": "العودة",
+    "DrilldownCard-message": "لقد قمت بالنقر {count} مرة/مرات",
+    "ErrorMessageCard-buttonAria": "ضبط رسالة الخطأ",
+    "ErrorMessageCard-description": "ضبط رسالة خطأ للعرض",
+    "ErrorMessageCard-headerMessage": "رسالة العنوان",
+    "ErrorMessageCard-iconColor": "لون الأيقونة",
+    "ErrorMessageCard-iconName": "اسم الأيقونة",
+    "ErrorMessageCard-textMessage": "رسالة نصية",
+    "ErrorMessageCard-submit": "إرسال",
+    "GraphQLQueryCard-noBuildings": "لا توجد مبانٍ لعرضها",
+    "GraphQLQueryCard-noSelectedSite": "تحديد موقع لعرض المباني ذات الصلة",
+    "GraphQLQueryCard-sites": "المواقع",
+    "GraphQLQueryCard-fetchFailed": "فشل الإحضار",
+    "GraphQLQueryCard-sitesFetchFailed": "تعذر إحضار المواقع",
+    "GraphQLQueryCard-buildingsFetchFailed": "تعذر إحضار المباني",
+    "LoadingStateCard-label": "ضبط حالة التحميل لمدة 10 ثوانٍ",
+    "LoadingStateCard-reload": "إعادة التحميل",
+    "LoadingStateCard-status": "الحالة: {status}",
+    "PreventRemoveCard-switchLabel": "تبديل القدرة على إزالة بطاقة:",
+    "ThrowErrorCard-errorHeaderMessage": "حدث خطأ متوقع",
+    "ThrowErrorCard-errorTextMessage": "تم اكتشاف هذا الخطأ بواسطة كود الامتداد وتم استدعاء setErrorMessage عن عمد",
+    "ThrowErrorCard-extensionErrorButtonText": "طرح خطأ الامتداد",
+    "ThrowErrorCard-dashboardErrorButtonText": "طرح خطأ لوحة المعلومات"
+  }
+}

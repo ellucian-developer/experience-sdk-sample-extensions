@@ -1,0 +1,718 @@
+{
+    "data": {
+      "buildings": {
+        "edges": [
+          {
+            "node": {
+              "id": "c26e20c0-10bf-45ce-b28e-e11fe1028d16",
+              "title": "API2 Bldg22222222333",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "4d637ee5-378d-49e6-be08-79ba21369402",
+              "title": "API3 Bldg",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "62ad064c-5f3c-4a9a-acea-86edeabdd5c4",
+              "title": "API4 Bldg",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "313fa725-d229-4dec-bfed-e0e76f5be969",
+              "title": "API5 Bldg",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "35eebb62-827c-4058-9265-369decce0d40",
+              "title": "API Bldg1111111111112222",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "18fd3cec-efdc-4c14-b92a-4b3972b500ba",
+              "title": "Athletic Fields",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "9f601650-3a99-4750-b7f9-0ba087590e82",
+              "title": "Banner 7.0 Class One Hall",
+              "description": null,
+              "site6": {
+                "id": "c4c2d45d-5095-481a-a171-71d57cf98b3f"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "92db894f-dbda-4ac0-937a-e54d8bbef05b",
+              "title": "Banner 7.0 Class Two Hall",
+              "description": null,
+              "site6": {
+                "id": "c4c2d45d-5095-481a-a171-71d57cf98b3f"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "aea03b52-80f1-489f-8e44-92dd80ad3f78",
+              "title": "Benjamin Clark Hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "44729cd9-3804-47f2-9bcc-5c06d56d644e",
+              "title": "BIol2 Desc",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "9edc3491-7b32-4c79-b1e3-da845e251f73",
+              "title": "Biology Building",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "efdc27e7-4299-43d5-8c53-9050e361094a",
+              "title": "Black Hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "8d835af4-1500-4a9c-979d-13bd6ca2fb96",
+              "title": "Building 1",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "6cbd953a-f540-4032-a1b9-5f62c677364f",
+              "title": "Chris BEDSworth Building",
+              "description": null,
+              "site6": {
+                "id": "ead7f8fd-c909-4ca4-a61e-9318ccfc4b11"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "3fbf0b38-ee61-46a8-b462-6fa3c311b88c",
+              "title": "Cindy's test",
+              "description": null,
+              "site6": {
+                "id": "2f1d81e3-84b1-4a13-a57d-add6bf7f4a3c"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "3d0f36c6-60ec-4873-b6f0-aba345328122",
+              "title": "Computer Information & Science",
+              "description": null,
+              "site6": {
+                "id": "31fe032a-f11b-4239-85b8-8769c67f32ad"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "dd122e36-dc45-42b6-b152-12ccb0e7d2e0",
+              "title": "Cox Hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "c1661684-cc3c-4dff-a2be-4fd94ee587f0",
+              "title": "dani's intl ¤ æ®ãµ¯",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "d9a3a69f-94d6-459c-b7e9-6db839f1a405",
+              "title": "East Hall for Fine Arts",
+              "description": null,
+              "site6": {
+                "id": "b29aed44-c188-4df1-94fc-042a5e47f3dd"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "4308751b-71da-46bb-9026-cf711b217516",
+              "title": "ellucian house",
+              "description": null,
+              "site6": {
+                "id": "caf0e411-c7c7-4d4f-804b-73576eb558b7"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "748382c6-f140-4591-8b94-444355d3891b",
+              "title": "Frisco Building One",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "3ae424cd-c38e-40c0-b39d-5e6335adcbe1",
+              "title": "Harkness Commons",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "c92e7226-40ac-4006-b0ef-7e9d47aabe11",
+              "title": "Humanities Hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "a1f595a8-5e8e-445a-b214-9b89ec21877a",
+              "title": "Inglewood Apartments",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "f87f426f-3d5b-4ec5-a1b4-c071bbdf719f",
+              "title": "International 1",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "cf5721a5-8233-4830-bf20-567cc7029e3b",
+              "title": "International 10",
+              "description": null,
+              "site6": {
+                "id": "6b5a0e61-581f-4576-bd7e-681bdc16ab2a"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "5078f973-096f-4210-bf02-9e24875b20e2",
+              "title": "International 2",
+              "description": null,
+              "site6": {
+                "id": "045a3b0b-ac95-4d1b-90cb-c57b4971a24d"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "c9f06a91-b0d3-4856-a4de-a73ce999db2b",
+              "title": "International 3",
+              "description": null,
+              "site6": {
+                "id": "6b5a0e61-581f-4576-bd7e-681bdc16ab2a"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "fe95b83b-ac00-482d-8e80-8a3ab01ea588",
+              "title": "International 4",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "3f1699d3-7b38-45dd-a1c6-b53c97fd82d7",
+              "title": "International 5",
+              "description": null,
+              "site6": {
+                "id": "045a3b0b-ac95-4d1b-90cb-c57b4971a24d"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "fd5877f4-f24a-4521-a241-e46058ac0a0a",
+              "title": "International 6",
+              "description": null,
+              "site6": {
+                "id": "b175fa04-ad71-4e08-8bba-e531902dd3c9"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "dd63771b-8252-4e0c-a83c-0b26548aee17",
+              "title": "International 7",
+              "description": null,
+              "site6": {
+                "id": "b175fa04-ad71-4e08-8bba-e531902dd3c9"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "3e6ec802-1a0d-4778-a7be-261233e2a7e8",
+              "title": "International 8",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "df557a23-57f0-4e62-9ad4-d32b50b650b0",
+              "title": "International 9",
+              "description": null,
+              "site6": {
+                "id": "045a3b0b-ac95-4d1b-90cb-c57b4971a24d"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "63d4a996-af97-479c-8511-04a40974c3dc",
+              "title": "Internationalization Max Char",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "b9c9b237-f99e-4dc7-bf5f-fe539cd1c641",
+              "title": "Jackman Hall",
+              "description": null,
+              "site6": {
+                "id": "6b5a0e61-581f-4576-bd7e-681bdc16ab2a"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "3a2eeef7-8aa0-4c2b-a051-9aed027db674",
+              "title": "Jane GoodHALL Building",
+              "description": null,
+              "site6": {
+                "id": "ead7f8fd-c909-4ca4-a61e-9318ccfc4b11"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "9b18ca2b-4934-4e56-8440-e5fff2b962d4",
+              "title": "Jarman Memorial hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "cbd37ffe-af80-461f-b2ea-be3a801f16c5",
+              "title": "Jordan On Locking test bldg",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "5fb9596c-f343-4752-ad24-72cbb9ba1bea",
+              "title": "Kanye West Building",
+              "description": null,
+              "site6": {
+                "id": "760e04eb-6bcb-4e93-8be3-4e6764b62a6b"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "65887bee-ee36-4664-86fe-870e64a8a36a",
+              "title": "Kelsey Residence Hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "6530ebb8-668e-44d4-b774-259698910c61",
+              "title": "Lauren Residence Hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "4f1ef727-0683-45b0-be6b-3625e7b69757",
+              "title": "Leroy Residence Hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "4807c9d0-f330-48fe-a353-dcdf4bcb6b43",
+              "title": "Lisa 's building",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "7cd16863-82e9-4dc4-9a19-bab136945432",
+              "title": "Locking Test",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "045f05df-2e4f-433a-b0a2-6f4c204e19d1",
+              "title": "Mathematics Hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "ea9e1781-ab6f-4029-80b4-4b4a99d82002",
+              "title": "Morison Hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "8edf2118-6b6b-4a93-bfad-e4752bb4baa8",
+              "title": "Nursing Hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "9c2a3c12-9fcb-463f-87f6-6c6b1dbb4e20",
+              "title": "Olin Hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "2d08e635-7594-4aae-b6bc-af69e7a53b9f",
+              "title": "Philosophy Hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "e24f8a7e-b929-4b93-9373-1bb98d6bf0d7",
+              "title": "Pinehurst",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "64a9d2f4-fb43-4fd9-a6a1-e78a29d4fb3a",
+              "title": "Rauch Administration Building",
+              "description": null,
+              "site6": {
+                "id": "6b5a0e61-581f-4576-bd7e-681bdc16ab2a"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "b02ed0d3-5b24-4cd4-9ad7-1f8900b05ade",
+              "title": "Residence Hall Number One",
+              "description": null,
+              "site6": {
+                "id": "c4c2d45d-5095-481a-a171-71d57cf98b3f"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "4785e08c-b98c-4a92-a4e5-c92a7364131c",
+              "title": "Residence Hall Number Two",
+              "description": null,
+              "site6": {
+                "id": "c4c2d45d-5095-481a-a171-71d57cf98b3f"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "f411d173-ee00-4ff0-ac34-3638e3d86c20",
+              "title": "Roopa System Test Building",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "e779e840-910d-4ebb-917a-2a85a91c6b36",
+              "title": "Science Hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "eb96443a-a91f-48bd-ad43-249bf548eb23",
+              "title": "Spruce Hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "8ac16bae-ded6-488a-a920-0fb232ae009e",
+              "title": "SVR Shotened",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "0d663f5d-b6dc-4f8e-a433-0746e94f4e27",
+              "title": "Sydney Classrooms 1",
+              "description": null,
+              "site6": {
+                "id": "38b938d2-adb1-4605-b9a6-0f42af4ada6f"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "d29a8a87-c3a4-49f6-b0f7-df86e296fa51",
+              "title": "Sydney Housing Building 1",
+              "description": null,
+              "site6": {
+                "id": "38b938d2-adb1-4605-b9a6-0f42af4ada6f"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "ebc24236-d7b5-43b2-a1c5-33c5cd30b05c",
+              "title": "Sydney - Men's College 1",
+              "description": null,
+              "site6": {
+                "id": "38b938d2-adb1-4605-b9a6-0f42af4ada6f"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "31654629-037e-4ee6-a5b7-d50ffc456af5",
+              "title": "Sydney - Women's College 1",
+              "description": null,
+              "site6": {
+                "id": "38b938d2-adb1-4605-b9a6-0f42af4ada6f"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "27672e9f-61d2-4d1c-be02-21068f5adeec",
+              "title": "TAB building",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "cb838b4e-f615-455c-b698-d64d56ab87d8",
+              "title": "Technology Hall",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "7e2a9917-9b55-4e84-abe7-1d868aa4a14e",
+              "title": "Test Automation backlog Build",
+              "description": null,
+              "site6": {
+                "id": "045a3b0b-ac95-4d1b-90cb-c57b4971a24d"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "10ceaafa-982a-456c-a616-23d2c6fc982f",
+              "title": "TEst building",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "47cf677e-d969-4eee-801b-ccd2247ecab0",
+              "title": "test buildings",
+              "description": null,
+              "site6": {
+                "id": "a66e080f-3486-45f6-8b42-e234137e4034"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "6e2acdca-6d36-4bc5-8dc8-9384637e5ce3",
+              "title": "Testing",
+              "description": null,
+              "site6": {
+                "id": "a6a1db11-3d04-4f00-941f-2b8807830589"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "2e34602e-e9ca-40a9-b954-1228a82e606e",
+              "title": "Testing for elevate",
+              "description": null,
+              "site6": {
+                "id": "a66e080f-3486-45f6-8b42-e234137e4034"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "79640f6e-321e-45b2-b173-29ffc752cc70",
+              "title": "The Aztex Budg Central City",
+              "description": null,
+              "site6": {
+                "id": "2f1d81e3-84b1-4a13-a57d-add6bf7f4a3c"
+              }
+            }
+          },
+          {
+            "node": {
+              "id": "0b41b1bb-9d52-493f-b0d2-d536380e45be",
+              "title": "Zimmer Testing Center",
+              "description": null,
+              "site6": {
+                "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }

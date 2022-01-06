@@ -1,10 +1,6 @@
 ## experience-extension-sdk-samples
 This repo is compiled of sample cards meant to be used in the Ellucian Experience Software Development Kit (SDK). The following are the files included in the samples located at src/cards.
 
-### ReactIntlProviderWrapper.jsx
-Ellucian Experience has chosen to use 'react-intl' library for localizing the content displayed in the Ellucian Experience dashboard. Sample cards here have also used 'react-intl' library. To use 'react-intl' inside a card, you would typically initialize the IntlProvider and wrap your content with injectIntl. Instead of doing that, you can follow the patterns that these sample cards follow by using this ReactIntlProviderWrapper as a Higher-Order Component around your card. The localized strings are found inside .json files within ./src/i18n.
-If you choose to localize your cards, you can follow this pattern or use your preferred frameworks to manage localizations.
-
 ### GraphQLCard
 This card demonstrates how GraphQL queries can be executed to retrieve data from Ethos. First, the list of Sites is retrieved and presented to the user. Once the user chooses a site, a second Ethos query retrieves the buildings for that site and displays it in a list.
 The Ellucian Path Design System is used to create visual components. Check out the returned JSX from this function. The JSS used to style the card is in the styles variable, and the withStyles Higher-Order Component is used in the statement exporting this card.
@@ -53,5 +49,11 @@ If a card behaves badly, the dashboard will remove that card and replace it with
 ## Sample page
 This page shows all the properties passed into the page. This is only for demonstration purposes.
 
-## Unit testing
+## Utilities
+
+### ReactIntlProviderWrapper.jsx
+Ellucian Experience has chosen to use 'react-intl' library for localizing the content displayed in the Ellucian Experience dashboard. Sample cards here have also used 'react-intl' library. To use 'react-intl' inside a card, you would typically initialize the IntlProvider and wrap your content with injectIntl. Instead of doing that, you can follow the patterns that these sample cards follow by using this ReactIntlProviderWrapper as a Higher-Order Component around your card. The localized strings are found inside .json files within ./src/i18n.
+If you choose to localize your cards, you can follow this pattern or use your preferred frameworks to manage localizations.
+
+### Unit testing
 The project has jest and enzyme libraries present to run unit tests. By starting the test runner (npm run test), the project folders under src will be searched for files that end with test.js and execute those tests.

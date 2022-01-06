@@ -1,0 +1,578 @@
+{
+    "data": {
+      "sites": {
+        "edges": [
+          {
+            "node": {
+              "id": "045a3b0b-ac95-4d1b-90cb-c57b4971a24d",
+              "title": "ABC"
+            }
+          },
+          {
+            "node": {
+              "id": "4870985a-0ac1-4e59-bfbf-2ba6930ac823",
+              "title": "All Campuses"
+            }
+          },
+          {
+            "node": {
+              "id": "4f2e03a8-8db9-4b91-a0f6-e5aabc0c4d2d",
+              "title": "Alma Campus Test"
+            }
+          },
+          {
+            "node": {
+              "id": "aff9c710-9339-4348-b5de-921967164f39",
+              "title": "B2D_I"
+            }
+          },
+          {
+            "node": {
+              "id": "c4c2d45d-5095-481a-a171-71d57cf98b3f",
+              "title": "Banner 7.0 System Test Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "7f8fd4f8-9529-4514-8c39-e0cf7482b4c4",
+              "title": "Bill Zimmer's Campus code"
+            }
+          },
+          {
+            "node": {
+              "id": "603f226f-b02f-4e6d-b616-13e1d82f9847",
+              "title": "Blacksburg"
+            }
+          },
+          {
+            "node": {
+              "id": "a66e080f-3486-45f6-8b42-e234137e4034",
+              "title": "Brampton Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "061d5132-9f3e-4efd-9897-0d7be39eacfc",
+              "title": "Brentwood Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "9aaf9537-04e7-4944-b57f-5f96bc92754c",
+              "title": "Brooklyn Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "0301aa4b-5053-440b-a8cc-69489a1cb4d2",
+              "title": "Campus 0"
+            }
+          },
+          {
+            "node": {
+              "id": "2f1d81e3-84b1-4a13-a57d-add6bf7f4a3c",
+              "title": "Campus 10-123"
+            }
+          },
+          {
+            "node": {
+              "id": "519a8616-a40e-4772-aea1-0ce909348543",
+              "title": "Canada"
+            }
+          },
+          {
+            "node": {
+              "id": "65724dfb-d051-45fe-afcf-80c91fcaafe2",
+              "title": "CAPP XML Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "99666591-6f2e-4e62-92ec-103f94ab79dc",
+              "title": "CAPP XML Campus 2"
+            }
+          },
+          {
+            "node": {
+              "id": "384b2d17-e007-4527-85b0-3dd546022eb5",
+              "title": "CAPP XML Campus 3"
+            }
+          },
+          {
+            "node": {
+              "id": "367d75cf-5def-4935-9909-8dafb584bad2",
+              "title": "Charlottesville"
+            }
+          },
+          {
+            "node": {
+              "id": "fc083f7e-65cf-4a9a-b6b3-d750dbac4d48",
+              "title": "Coastline Community College"
+            }
+          },
+          {
+            "node": {
+              "id": "31fe032a-f11b-4239-85b8-8769c67f32ad",
+              "title": "Computer Information/Science"
+            }
+          },
+          {
+            "node": {
+              "id": "7a188d6e-ada7-46b3-a116-ee5489ce403b",
+              "title": "Continuing Education Campus 1"
+            }
+          },
+          {
+            "node": {
+              "id": "97d83dbe-9454-4d48-a4df-f7ed50a7a1e2",
+              "title": "Coop Program"
+            }
+          },
+          {
+            "node": {
+              "id": "0b296d88-8b5e-4e8e-a510-56f742d8cf44",
+              "title": "C.W. Post Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "733a74d2-ec94-4f51-9646-9fe64fa0bdf4",
+              "title": "Dayna's Campus Code"
+            }
+          },
+          {
+            "node": {
+              "id": "bc4e805e-2e12-42df-9cbb-ca40abedaf1f",
+              "title": "doubleSinglequote"
+            }
+          },
+          {
+            "node": {
+              "id": "6b5a0e61-581f-4576-bd7e-681bdc16ab2a",
+              "title": "Downtown"
+            }
+          },
+          {
+            "node": {
+              "id": "12586597-8298-4a03-a0df-f53e48e50000",
+              "title": "East Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "ead7f8fd-c909-4ca4-a61e-9318ccfc4b11",
+              "title": "East Side"
+            }
+          },
+          {
+            "node": {
+              "id": "a6a1db11-3d04-4f00-941f-2b8807830589",
+              "title": "Fee Assessment Test Campus 1"
+            }
+          },
+          {
+            "node": {
+              "id": "0d70ced2-ed20-4f2c-9bcb-1905d93e9b68",
+              "title": "Fee Assessment Test Campus 3"
+            }
+          },
+          {
+            "node": {
+              "id": "5fff5d21-70d8-4c77-803c-99e04593f705",
+              "title": "Fee Assessment Test Campus F"
+            }
+          },
+          {
+            "node": {
+              "id": "a7487428-d5cc-4ec7-8a6b-0a3f109d0c60",
+              "title": "Fee Assessment Test Campus t"
+            }
+          },
+          {
+            "node": {
+              "id": "caf0e411-c7c7-4d4f-804b-73576eb558b7",
+              "title": "Fee campus F2"
+            }
+          },
+          {
+            "node": {
+              "id": "b29aed44-c188-4df1-94fc-042a5e47f3dd",
+              "title": "Fee campus FA"
+            }
+          },
+          {
+            "node": {
+              "id": "0589fcbc-f2b1-4a64-87af-11cd0fdb1842",
+              "title": "Fort Washington Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "e7001372-9b9e-4e4f-8e23-822e646a7c57",
+              "title": "Fullerton Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "14c8726a-83c0-4ed6-b2b2-283b38e38353",
+              "title": "Galveston Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "ee8581ad-c46b-4ad2-ab93-7428077ae80c",
+              "title": "Golden West College"
+            }
+          },
+          {
+            "node": {
+              "id": "890dfceb-b824-4148-85d6-2646f8511835",
+              "title": "Grand Rapids CAmpus"
+            }
+          },
+          {
+            "node": {
+              "id": "26e65f6d-e262-45af-9a1b-b4daafe16c0d",
+              "title": "Greensburg Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "ea6e8dfd-4260-4e11-b87a-2aaed28958b7",
+              "title": "Greenville Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "d71f5ad9-4c3f-4ab4-8d6b-48930ec320e7",
+              "title": "Highland"
+            }
+          },
+          {
+            "node": {
+              "id": "fedc4979-0382-4fcb-85c8-11f7cc7bb7f9",
+              "title": "Indian Valley Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "f4060713-7f97-4688-a43d-b84b7708f4d2",
+              "title": "Inwash Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "169e43bf-d377-496f-abdb-24cd7d736ab4",
+              "title": "Joint Studies"
+            }
+          },
+          {
+            "node": {
+              "id": "3e02c003-5a29-4647-bb03-8499ef8d47a1",
+              "title": "Jousting Campus-123"
+            }
+          },
+          {
+            "node": {
+              "id": "fcaf8161-fcb0-43ff-b496-814199c02ed2",
+              "title": "Katz Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "22e2db93-a623-44af-b122-1d0815109a34",
+              "title": "Kentfield Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "24e0dbec-60f9-4e70-8a30-5873c56a3e9f",
+              "title": "Lancaster University REEP"
+            }
+          },
+          {
+            "node": {
+              "id": "421941e1-9809-4383-94e8-a3093bcc1ef6",
+              "title": "Local Hospital"
+            }
+          },
+          {
+            "node": {
+              "id": "03badfaa-7e6b-4d67-80b5-5b3d4dafcdec",
+              "title": "Lower Columbia Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "b1156e7a-cea5-4e24-9fa2-bf8a367f2c61",
+              "title": "Main"
+            }
+          },
+          {
+            "node": {
+              "id": "9733e3d3-9e39-4b48-9393-4dffbfa7866b",
+              "title": "Main"
+            }
+          },
+          {
+            "node": {
+              "id": "85205ca9-7492-41a4-9a1d-9c37eca568fb",
+              "title": "Main"
+            }
+          },
+          {
+            "node": {
+              "id": "843828c3-8798-4e5f-93ee-8e1b8ff48768",
+              "title": "Malta"
+            }
+          },
+          {
+            "node": {
+              "id": "694c8da9-e043-46b0-9ce4-6bd69408a984",
+              "title": "Melbourne Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "bacf1cc1-ec74-43a0-823a-7da70f131d8f",
+              "title": "Mid Florida Tech"
+            }
+          },
+          {
+            "node": {
+              "id": "01b4b380-d131-497c-be51-692226ad14cc",
+              "title": "Miramar Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "526b5c83-d0f8-47ed-8e34-ac9f9a11a722",
+              "title": "M Test"
+            }
+          },
+          {
+            "node": {
+              "id": "434a5fd2-b6b8-4a48-a009-c1790457960e",
+              "title": "New Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "03650012-842b-4b68-99f7-6289f95e3e30",
+              "title": "New Campus System test"
+            }
+          },
+          {
+            "node": {
+              "id": "b874f0dc-e450-4b35-a9fd-31a1d9293ca6",
+              "title": "Off-campus"
+            }
+          },
+          {
+            "node": {
+              "id": "92ff57f8-19d9-44de-ad1a-cc04ad0d2a38",
+              "title": "Off Campus Location"
+            }
+          },
+          {
+            "node": {
+              "id": "8312e3a2-c3b8-4595-b0b4-11fb5118c106",
+              "title": "Orange Coast College"
+            }
+          },
+          {
+            "node": {
+              "id": "2f429a8b-9d02-4521-b06f-e8adb8617350",
+              "title": "Orlando Tech"
+            }
+          },
+          {
+            "node": {
+              "id": "dfaa5af7-e27b-4d21-b21d-d6ead934b141",
+              "title": "Park Hills HS"
+            }
+          },
+          {
+            "node": {
+              "id": "28f42406-d283-4110-a1b0-f80b40a2369d",
+              "title": "Pellissippi Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "6ac6f78e-df2d-4278-ab2c-9f0d03b641a1",
+              "title": "Philadelphia Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "5efe4b0c-7eca-49fc-b28c-bb1e905ea11c",
+              "title": "Pittsburg Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "7925a79f-3708-406d-a5ea-58db1e8991ca",
+              "title": "Primary"
+            }
+          },
+          {
+            "node": {
+              "id": "1cdcdbc4-b1d2-4bb5-9a65-e5ec50a79d7f",
+              "title": "Reno Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "1550ab0f-00bd-4f9a-b7cf-fa21e23c6d89",
+              "title": "Rhodes Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "267a4e54-f1d7-4f07-958a-d584102ce6b8",
+              "title": "Rockland Graduate Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "a5d15dbf-6791-497f-8de3-48a05bde0574",
+              "title": "Ross - Dominica Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "38657522-a87b-4677-8d02-f220846f2143",
+              "title": "Ross - St. Kitts Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "664f9f59-dbdd-4889-9f78-99c779ad1299",
+              "title": "Ross - U.S. Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "f44b5ad3-dab8-4961-9496-cf24e8506f25",
+              "title": "Secondary"
+            }
+          },
+          {
+            "node": {
+              "id": "ff716056-861e-46c7-9e9e-7b76cb880862",
+              "title": "Southampton College"
+            }
+          },
+          {
+            "node": {
+              "id": "6eb062e3-32ce-4dbd-8c6b-ddbcf6d39583",
+              "title": "South Campus Windsor"
+            }
+          },
+          {
+            "node": {
+              "id": "442ab4d1-d08d-42b9-ac2d-0ff1707028fd",
+              "title": "Special Class Search for Campu"
+            }
+          },
+          {
+            "node": {
+              "id": "7f89abc8-b093-4a28-b35b-c401bfa71540",
+              "title": "ST Test"
+            }
+          },
+          {
+            "node": {
+              "id": "1a29284f-c433-498c-b9f4-8995aba92ee4",
+              "title": "Study Abroad"
+            }
+          },
+          {
+            "node": {
+              "id": "c2e0aae0-a37f-436d-ba13-4f1b48daf701",
+              "title": "Suffolk Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "38b938d2-adb1-4605-b9a6-0f42af4ada6f",
+              "title": "Sydney Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "c51d2d73-3c9b-4059-89ca-224231c8e7e8",
+              "title": "Teachers College"
+            }
+          },
+          {
+            "node": {
+              "id": "3b239549-a2aa-4296-8a33-7c77d411cffc",
+              "title": "Thames Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "af86407b-8fd5-4bb7-9223-3d0bee549e23",
+              "title": "Three Character Campus Code"
+            }
+          },
+          {
+            "node": {
+              "id": "ea1ba5b0-9578-4daf-a550-abe739c305bc",
+              "title": "Two-character code"
+            }
+          },
+          {
+            "node": {
+              "id": "0fada34d-eece-4444-a9f6-179c6f9fea15",
+              "title": "Urbana Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "500ed9a9-5ed9-4261-8026-45cc7a6c20a7",
+              "title": "Virtual"
+            }
+          },
+          {
+            "node": {
+              "id": "73265702-d120-42a1-8f39-557627eae4ee",
+              "title": "Wallaceburg Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "760e04eb-6bcb-4e93-8be3-4e6764b62a6b",
+              "title": "West Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "4f32de5b-1462-4cf4-b78c-dd68a6755bb4",
+              "title": "Westchester Graduate Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "b175fa04-ad71-4e08-8bba-e531902dd3c9",
+              "title": "West Side Campus"
+            }
+          },
+          {
+            "node": {
+              "id": "91d8e679-85f2-4bee-ab4a-5040b1580333",
+              "title": "Westside Tech"
+            }
+          },
+          {
+            "node": {
+              "id": "0585fa81-bae9-43b9-b5e8-2e784c09f095",
+              "title": "Winter Park Tech"
+            }
+          }
+        ]
+      }
+    }
+  }

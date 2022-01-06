@@ -1,0 +1,31 @@
+{
+  "messages": {
+    "CacheCard-reset": "Restablecer",
+    "CacheCard-viewCount": "Conteo de vistos: {viewedCount}",
+    "DrilldownCard-clickMe": "Haga clic aquí",
+    "DrilldownCard-clicks": "Número de clics: {count}",
+    "DrilldownCard-goBack": "Regresar",
+    "DrilldownCard-message": "Hizo clic {count} veces",
+    "ErrorMessageCard-buttonAria": "Definir el mensaje de error",
+    "ErrorMessageCard-description": "Defina el mensaje de error a desplegar",
+    "ErrorMessageCard-headerMessage": "Mensaje del encabezado",
+    "ErrorMessageCard-iconColor": "Color del icono",
+    "ErrorMessageCard-iconName": "Nombre del icono",
+    "ErrorMessageCard-textMessage": "Mensaje de texto",
+    "ErrorMessageCard-submit": "Enviar",
+    "GraphQLQueryCard-noBuildings": "No hay edificios para mostrar",
+    "GraphQLQueryCard-noSelectedSite": "Seleccione un sitio para mostrar los edificios relacionados",
+    "GraphQLQueryCard-sites": "Sitios",
+    "GraphQLQueryCard-fetchFailed": "Hubo un error al obtener los datos",
+    "GraphQLQueryCard-sitesFetchFailed": "No pudo obtener los sitios",
+    "GraphQLQueryCard-buildingsFetchFailed": "No pudo obtener los edificios",
+    "LoadingStateCard-label": "Establezca el estatus de carga por 10 segundos",
+    "LoadingStateCard-reload": "Recargar",
+    "LoadingStateCard-status": "Estatus: {status}",
+    "PreventRemoveCard-switchLabel": "Active la capacidad para eliminar la tarjeta:",
+    "ThrowErrorCard-errorHeaderMessage": "Ocurrió un error esperado",
+    "ThrowErrorCard-errorTextMessage": "Este error fue detectado por el código de la extensión y se llamó intencionalmente a setErrorMessage",
+    "ThrowErrorCard-extensionErrorButtonText": "Iniciar el error de extensión",
+    "ThrowErrorCard-dashboardErrorButtonText": "Iniciar el error de tablero"
+  }
+}
