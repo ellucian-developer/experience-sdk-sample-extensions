@@ -1,11 +1,18 @@
 import React from 'react';
 import PropsPage from './index';
-import { mountWithExtensionProps } from '../utils/test-utils/enzymeUtil';
+import { shallow } from 'enzyme';
 
 describe('<PropsPage>', () => {
     it('Loads props page', () => {
 
-        const card = mountWithExtensionProps(<PropsPage />);
-        expect(card.find('pre').text()).not.toBeNull();
+        const ContextProvider = React.createContext({});
+
+        const wrapper = shallow(
+            <ContextProvider.Provider>
+                <PropsPage />
+            </ContextProvider.Provider>
+        )
+
+        expect(wrapper.find('pre').exists());
     })
 })

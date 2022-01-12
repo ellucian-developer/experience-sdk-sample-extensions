@@ -9,6 +9,7 @@ module.exports = {
         "<rootDir>/node_modules"
     ],
     coverageDirectory: 'coverage',
+    setupFilesAfterEnv: ['<rootDir>/config/setupTests.js'],
     setupFiles:[
       'raf/polyfill',
       '<rootDir>/src/utils/test-utils/enzymeSetup'
