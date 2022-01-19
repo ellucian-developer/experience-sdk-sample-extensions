@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Description of sdk-samples",
   "main": "index.js",
-  "license": "UNLICENSED",
+  "license": "Apache 2.0",
   "scripts": {
     "lint": "npx eslint --ext .jsx,.js src",
     "build-dev": "webpack --progress --mode development --env verbose",
