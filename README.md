@@ -1,4 +1,6 @@
-## experience-extension-sdk-samples
+Ellucian © 2022 Ellucian Company L.P. and its affiliates
+
+## experience-sdk-sample-extensions
 This repo is compiled of sample cards meant to be used in the Ellucian Experience Software Development Kit (SDK). The following are the files included in the samples located at src/cards.
 
 ### GraphQLCard

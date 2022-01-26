@@ -1,7 +1,6 @@
 import React from 'react';
 import LoadingStateCard from './LoadingStateCard';
 import { mountWithExtensionProps } from '../utils/test-utils/enzymeUtil';
-import { shallow } from 'enzyme';
 
 describe('<LoadingStateCard>', () => {
     it('Sets the card to loading', () => {

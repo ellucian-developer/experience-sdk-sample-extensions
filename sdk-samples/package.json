@@ -1,5 +1,9 @@
 {
   "name": "sdk-samples",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ellucian-developer/experience-sdk-sample-extensions"
+  },
   "version": "1.0.0",
   "description": "Description of sdk-samples",
   "main": "index.js",
@@ -15,15 +19,16 @@
     "test": "cross-env BABEL_ENV=test JEST_JUNIT_OUTPUT=./report.xml jest --coverage"
   },
   "dependencies": {
-    "@ellucian/ds-icons": "https://cdn.elluciancloud.com/assets/EDS2/5.5.0/umd/path_design_system_icons.tgz",
-    "@ellucian/experience-extension": "4.3.1",
-    "@ellucian/react-design-system": "https://cdn.elluciancloud.com/assets/EDS2/5.5.0/umd/path_design_system.tgz",
+    "@ellucian/ds-icons": "https://cdn.elluciancloud.com/assets/EDS2/6.0.0/umd/path_design_system_icons.tgz",
+    "@ellucian/experience-extension": "5.0.1",
+    "@ellucian/react-design-system": "https://cdn.elluciancloud.com/assets/EDS2/6.0.0/umd/path_design_system.tgz",
     "classnames": "2.2.6",
     "moment": "2.25.3",
     "prop-types": "15.7.2",
     "react": "16.9.0",
     "react-dom": "16.9.0",
     "react-intl": "5.12.5",
+    "react-markdown": "8.0.0",
     "react-router-dom": "5.2.0"
   },
   "devDependencies": {
