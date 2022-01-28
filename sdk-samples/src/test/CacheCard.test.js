@@ -1,5 +1,5 @@
 import React from 'react';
-import CacheCard from './CacheCard';
+import CacheCard from '../cards/CacheCard';
 import { mountWithExtensionProps } from '../utils/test-utils/enzymeUtil';
 
 describe('<CacheCard', () => {
