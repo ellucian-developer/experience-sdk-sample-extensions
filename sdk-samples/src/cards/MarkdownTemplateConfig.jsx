@@ -1,13 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { TextField} from '@ellucian/react-design-system/core';
-import { withStyles } from '@ellucian/react-design-system/core/styles';
-
-const styles = () => ({
-    textField: {
-        width: '100%'
-    }
-});
 
 const MarkdownTemplateConfig = props => {
     const {
@@ -45,7 +38,6 @@ const MarkdownTemplateConfig = props => {
 
     return (
         <TextField
-            className={classes.textField}
             label="Comments"
             margin="normal"
             multiline
@@ -65,4 +57,4 @@ MarkdownTemplateConfig.propTypes = {
     cardInfo: PropTypes.object
 };
 
-export default withStyles(styles)(MarkdownTemplateConfig);
+export default MarkdownTemplateConfig;
