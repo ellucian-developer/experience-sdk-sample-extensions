@@ -1,5 +1,5 @@
 import React from 'react';
-import PropsPage from './index';
+import PropsPage from '../page/index';
 import { shallow } from 'enzyme';
 
 describe('<PropsPage>', () => {
