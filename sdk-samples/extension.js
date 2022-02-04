@@ -83,7 +83,7 @@ module.exports = {
             "list-sites": [
                 {
                     "resourceVersions": {
-                        "sites": {min: 6},
+                        "sites": { min: 6 },
                     },
                     "query":
                         `{
@@ -104,8 +104,8 @@ module.exports = {
             "list-buildings": [
                 {
                     "resourceVersions": {
-                        "buildings": {min: 6},
-                        "sites": {min: 6},
+                        "buildings": { min: 6 },
+                        "sites": { min: 6 },
                     },
                     "query":
                         `query listBuildings($siteId: ID){
@@ -115,7 +115,7 @@ module.exports = {
                                         id: { EQ: $siteId }
                                     }
                                 },
-                                sort: { title: ASC } 
+                                sort: { title: ASC }
                             )
                             {
                                 edges {
@@ -170,6 +170,19 @@ module.exports = {
         "description": "This card displays non-function properties",
         "pageRoute": {
             "route": "/"
+        }
+    }, {
+        "type": "MarkdownTemplate",
+        "source": "./src/cards/MarkdownTemplate.jsx",
+        "title": "Markdown Template",
+        "displayCardType": "Markdown Template",
+        "description": "Markdown Template",
+        "template": {
+            "image": "./src/assets/markdown.jpeg",
+            "title": "Markdown Template"
+        },
+        "customConfiguration": {
+            "source": "./src/cards/MarkdownTemplateConfig.jsx"
         }
     }],
     "page": {

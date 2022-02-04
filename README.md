@@ -48,6 +48,12 @@ The Ellucian Path Design System is used to create visual components. Check out t
 ### ThrowErrorCard
 If a card behaves badly, the dashboard will remove that card and replace it with a card that tells the user that something went wrong. This card demonstrates what happens when an error occurs.
 
+### MarkdownTemplate
+This creates a template to make cards from. Templates will appear under dashboard's "Add New" menu in the configuration page. Child cards created through a template will have configuration independent from each other. When a template extension is deleted or disabled through the setup app, all child cards created from that template will also be deleted or disabled, respectively.
+
+### MarkdownTemplateConfig
+The template utilizies the customConfiguration prop to add its own configuration values to the dashboard's configuration step. When customConfiguration is set in a template, any cards produced from the template will be able to utilize the customConfiguration. Cards created from a template each can have their own unique values of customConfiguration.
+
 ## Sample page
 This page shows all the properties passed into the page. This is only for demonstration purposes.
 
