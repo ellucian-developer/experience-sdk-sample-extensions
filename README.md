@@ -1,7 +1,9 @@
 Ellucian © 2022 Ellucian Company L.P. and its affiliates
 
 ## experience-sdk-sample-extensions
-This repo is compiled of sample cards meant to be used in the Ellucian Experience Software Development Kit (SDK). The following are the files included in the samples located at src/cards.
+This repository is compiled of Experience extension sample cards meant to be used in conjunction with the Ellucian Experience SDK (Software Development Kit). These samples cards are located within the src/cards folder. Intended to be used by developers who want to learn how to build Experience extensions, these examples are provided as a resource to understand how react hooks, props, and UI components behave inside of an extension. 
+
+To learn more about how to use these sample extensions, follow the [Ellucian Toolkit Developer Community Forum](https://ellucian.service-now.com/community?id=community_forum&sys_id=e73389abdb4f5c50c23a3cae7c961913) or visit the Ellucian Experience Resource Center. 
 
 ### GraphQLCard
 This card demonstrates how GraphQL queries can be executed to retrieve data from Ethos. First, the list of Sites is retrieved and presented to the user. Once the user chooses a site, a second Ethos query retrieves the buildings for that site and displays it in a list.
