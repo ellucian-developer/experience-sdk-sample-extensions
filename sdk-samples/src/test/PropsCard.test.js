@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import PropsCard from './PropsCard';
+import PropsCard from '../cards/PropsCard';
 import { shallow } from 'enzyme';
 
 describe('<PropsCard>', () => {

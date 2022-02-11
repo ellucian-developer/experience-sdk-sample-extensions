@@ -1,5 +1,5 @@
 import React from 'react';
-import CardConfigurationCard from './CardConfigurationCard';
+import CardConfigurationCard from '../cards/CardConfigurationCard';
 import { mountWithExtensionProps } from '../utils/test-utils/enzymeUtil';
 
 describe('<CardConfigurationCard>', () => {
