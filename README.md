@@ -67,3 +67,5 @@ If you choose to localize your cards, you can follow this pattern or use your pr
 
 ### Unit testing
 The project has jest and enzyme libraries present to run unit tests. By starting the test runner (npm run test), the project folders under src will be searched for files that end with test.js and execute those tests.
+
+test2
