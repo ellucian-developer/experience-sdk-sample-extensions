@@ -1,5 +1,5 @@
 {
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "extends": [
     "eslint:recommended",
     "plugin:import/errors",
@@ -9,10 +9,16 @@
     "plugin:jest/recommended"
   ],
   "parserOptions": {
+    "babelOptions": {
+      "presets": [
+        "@babel/preset-react"
+      ]
+    },
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
       "jsx": true
     },
+    "requireConfigFile": false,
     "sourceType": "module"
   },
   "settings": {
