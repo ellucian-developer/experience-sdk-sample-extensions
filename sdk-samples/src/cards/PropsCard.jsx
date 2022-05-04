@@ -1,6 +1,7 @@
 import { withStyles } from '@ellucian/react-design-system/core/styles';
 import { spacing40 } from '@ellucian/react-design-system/core/styles/tokens';
 import { Typography, TextLink } from '@ellucian/react-design-system/core';
+import moment from 'moment';
 import PropTypes from 'prop-types';
 import React from 'react';
 import {
@@ -32,6 +33,9 @@ const PropsCard = (props) => {
 
     return (
         <div className={classes.card}>
+            <Typography>
+                {moment().format('LL')}
+            </Typography>
             <Typography variant={'h2'}>
                 Properties
             </Typography>
