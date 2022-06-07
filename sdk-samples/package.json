@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@ellucian/ds-icons": "https://cdn.elluciancloud.com/assets/EDS2/6.3.0/umd/path_design_system_icons.tgz",
-    "@ellucian/experience-extension": "https://cdn.elluciancloud.com/assets/SDK/5.6.0/ellucian-experience-extension-5.6.0.tgz",
+    "@ellucian/experience-extension": "https://cdn.elluciancloud.com/assets/SDK/5.7.0/ellucian-experience-extension-5.7.0.tgz",
     "@ellucian/react-design-system": "https://cdn.elluciancloud.com/assets/EDS2/6.3.0/umd/path_design_system.tgz",
     "classnames": "2.2.6",
     "moment": "2.29.3",
