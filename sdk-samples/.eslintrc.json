@@ -318,7 +318,6 @@
       "error",
       "never"
     ],
-    "@calm/react-intl/missing-formatted-message": [1, { "noTrailingWhitespace": true, "ignoreLinks": true }],
     "@calm/react-intl/missing-attribute": [1,
         {
             "noTrailingWhitespace": true,
