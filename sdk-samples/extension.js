@@ -34,6 +34,7 @@ module.exports = {
     "cards": [{
         "type": "ThrowErrorCard",
         "source": "./src/cards/ThrowErrorCard.jsx",
+        "category": "insights",
         "title": "Throw Error",
         "displayCardType": "Nothing but Error",
         "description": "Throws an Error"
@@ -41,6 +42,7 @@ module.exports = {
         "type": "CardConfigurationCard",
         "source": "./src/cards/CardConfigurationCard",
         "title": "Card Configuration",
+        "category": "academics",
         "displayCardType": "Card Configuration",
         "description": "Card Configuration",
         "configuration": {
@@ -77,6 +79,7 @@ module.exports = {
         "type": "GraphQLQueryCard",
         "source": "./src/cards/GraphQLQueryCard",
         "miniCardIcon": "building",
+        "category": "work",
         "title": "Buildings",
         "displayCardType": "GraphQL Query",
         "description": "GraphQL Query",
@@ -137,12 +140,14 @@ module.exports = {
         "type": "CacheCard",
         "source": "./src/cards/CacheCard",
         "title": "Cache Card",
+        "category": "community",
         "miniCardIcon": "usd-circle",
         "displayCardType": "Cache Card",
         "description": "Cache Card"
     }, {
         "type": "PreventRemoveCard",
         "source": "./src/cards/PreventRemoveCard",
+        "category": "myaccount",
         "miniCardIcon": "file-certificate",
         "title": "Prevent Remove",
         "displayCardType": "Prevent Remove",
