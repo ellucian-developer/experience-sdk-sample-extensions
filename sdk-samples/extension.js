@@ -1,6 +1,6 @@
 module.exports = {
-    "name": "EET-4254-miniCardIcon",
-    "publisher": "iman",
+    "name": "sdk-samples",
+    "publisher": "Sample",
     "configuration": {
         "client": [{
             "key": "extension-client-url",
@@ -34,13 +34,13 @@ module.exports = {
     "cards": [{
         "type": "ThrowErrorCard",
         "source": "./src/cards/ThrowErrorCard.jsx",
-        "title": "EET-4254-miniCardIcon Throw Error",
+        "title": "Throw Error",
         "displayCardType": "Nothing but Error",
         "description": "Throws an Error"
     }, {
         "type": "CardConfigurationCard",
         "source": "./src/cards/CardConfigurationCard",
-        "title": "EET-4254-miniCardIcon Card Configuration",
+        "title": "Card Configuration",
         "displayCardType": "Card Configuration",
         "description": "Card Configuration",
         "configuration": {
@@ -77,7 +77,7 @@ module.exports = {
         "type": "GraphQLQueryCard",
         "source": "./src/cards/GraphQLQueryCard",
         "miniCardIcon": "building",
-        "title": "EET-4254-miniCardIcon Buildings",
+        "title": "Buildings",
         "displayCardType": "GraphQL Query",
         "description": "GraphQL Query",
         "queries": {
@@ -136,7 +136,7 @@ module.exports = {
     }, {
         "type": "CacheCard",
         "source": "./src/cards/CacheCard",
-        "title": "EET-4254-miniCardIcon Cache Card",
+        "title": "Cache Card",
         "miniCardIcon": "usd-circle",
         "displayCardType": "Cache Card",
         "description": "Cache Card"
@@ -144,34 +144,33 @@ module.exports = {
         "type": "PreventRemoveCard",
         "source": "./src/cards/PreventRemoveCard",
         "miniCardIcon": "file-certificate",
-        "title": "EET-4254-miniCardIcon Prevent Remove",
+        "title": "Prevent Remove",
         "displayCardType": "Prevent Remove",
         "description": "This card can prevent its removal"
     }, {
         "type": "DrilldownCard",
         "source": "./src/cards/DrilldownCard",
         "miniCardIcon": "list-view",
-        "title": "EET-4254-miniCardIcon Drilldown Example",
+        "title": "Drilldown Example",
         "displayCardType": "Drilldown Example",
         "description": "This card demostrates drilldown pattern"
     }, {
         "type": "LoadingStateCard",
         "source": "./src/cards/LoadingStateCard",
         "miniCardIcon": "download",
-        "title": "EET-4254-miniCardIcon Loading State",
+        "title": "Loading State",
         "displayCardType": "Loading State",
         "description": "This card sets it state to loading for 10 seconds"
     }, {
         "type": "ErrorMessageCard",
         "source": "./src/cards/ErrorMessageCard",
-        "miniCardIcon": "rejected-icon-doesnt-exist",
-        "title": "EET-4254-miniCardIcon Error Message",
+        "title": "Error Message",
         "displayCardType": "Error Message",
         "description": "This card sets an error message to display"
     }, {
         "type": "PropsCard",
         "source": "./src/cards/PropsCard",
-        "title": "EET-4254-miniCardIcon Properties",
+        "title": "Properties",
         "displayCardType": "Properties Card",
         "description": "This card displays non-function properties",
         "pageRoute": {
