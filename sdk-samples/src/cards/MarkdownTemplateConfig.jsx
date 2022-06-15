@@ -4,7 +4,6 @@ import { TextField} from '@ellucian/react-design-system/core';
 
 const MarkdownTemplateConfig = props => {
     const {
-        classes,
         cardControl: {
             setCustomConfiguration,
             setIsCustomConfigurationValid
@@ -52,7 +51,6 @@ const MarkdownTemplateConfig = props => {
 };
 
 MarkdownTemplateConfig.propTypes = {
-    classes: PropTypes.object,
     cardControl: PropTypes.object,
     cardInfo: PropTypes.object
 };
