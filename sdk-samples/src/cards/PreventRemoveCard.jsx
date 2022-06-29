@@ -12,6 +12,11 @@ const styles = () => ({
     }
 });
 
+/**
+ * Demonstrates how to prevent a card from being removed from the dashboard. Uses
+ * the SDK's {code}setPreventRemove{code} and {code}setPreventRemoveMessage{code}
+ * functions.
+ */
 class PreventRemoveCard extends React.Component {
     render() {
         const { classes, cardControl: { setPreventRemove, setPreventRemoveMessage }, intl } = this.props;
@@ -21,7 +26,7 @@ class PreventRemoveCard extends React.Component {
                 <Typography variant="body2" color="textPrimary">
                     {intl.formatMessage({ id: 'PreventRemoveCard-switchLabel' })}
                 </Typography>
-                <ToggleFooter setPreventRemove={setPreventRemove} setPreventRemoveMessage={setPreventRemoveMessage} />
+                <TogglePreventRemove setPreventRemove={setPreventRemove} setPreventRemoveMessage={setPreventRemoveMessage} />
             </div>
         );
     }
@@ -35,7 +40,14 @@ PreventRemoveCard.propTypes = {
 
 export default withIntl(withStyles(styles)(PreventRemoveCard));
 
-function ToggleFooter(props) {
+
+/**
+ * A switch to enable/disable the ability for users to remove a card from the Experience dashboard.
+ *
+ * @param {Object.<string, any>} props Component props
+ * @returns {React.Component}          A Switch control that enables/disables card removal
+ */
+ function TogglePreventRemove(props) {
     const [ toggle, setToggle ] = useState(false);
 
     function toggleSwitch() {
@@ -58,7 +70,7 @@ function ToggleFooter(props) {
     );
 }
 
-ToggleFooter.propTypes = {
+TogglePreventRemove.propTypes = {
     setPreventRemove: PropTypes.func.isRequired,
     setPreventRemoveMessage: PropTypes.func.isRequired
 };

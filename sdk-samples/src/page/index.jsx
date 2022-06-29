@@ -24,10 +24,20 @@ const styles = () => ({
     }
 });
 
+/**
+ * Demonstrates how to access all of the data and functions provided to extension cards,
+ * via both props and hooks.
+ *
+ * This page is invoked from the Props card.
+ *
+ * @param {Object.<string, any>} props Page props
+ * @returns {React.Component}          The Props card
+ */
 const PropsPage = (props) => {
     const { classes } = props;
     const { setPageTitle } = usePageControl();
 
+    // use SDK function to set the page title
     setPageTitle("Props and Hooks");
 
     return (

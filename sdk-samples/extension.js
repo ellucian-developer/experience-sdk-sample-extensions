@@ -1,6 +1,6 @@
 module.exports = {
-    "name": "sdk-samples",
-    "publisher": "Sample",
+    "name": "sdk-samples-test-2",
+    "publisher": "Ramsey",
     "configuration": {
         "client": [{
             "key": "extension-client-url",
@@ -35,13 +35,13 @@ module.exports = {
         "type": "ThrowErrorCard",
         "source": "./src/cards/ThrowErrorCard.jsx",
         "category": "insights",
-        "title": "Throw Error",
+        "title": "Ramsey2 - Throw Error",
         "displayCardType": "Nothing but Error",
         "description": "Throws an Error"
     }, {
         "type": "CardConfigurationCard",
         "source": "./src/cards/CardConfigurationCard",
-        "title": "Card Configuration",
+        "title": "Ramsey2 - Card Configuration",
         "category": "academics",
         "displayCardType": "Card Configuration",
         "description": "Card Configuration",
@@ -80,7 +80,7 @@ module.exports = {
         "source": "./src/cards/GraphQLQueryCard",
         "miniCardIcon": "building",
         "category": "work",
-        "title": "Buildings",
+        "title": "Ramsey2 - Buildings",
         "displayCardType": "GraphQL Query",
         "description": "GraphQL Query",
         "queries": {
@@ -139,7 +139,7 @@ module.exports = {
     }, {
         "type": "CacheCard",
         "source": "./src/cards/CacheCard",
-        "title": "Cache Card",
+        "title": "Ramsey2 - Cache Card",
         "category": "community",
         "miniCardIcon": "usd-circle",
         "displayCardType": "Cache Card",
@@ -149,33 +149,33 @@ module.exports = {
         "source": "./src/cards/PreventRemoveCard",
         "category": "myaccount",
         "miniCardIcon": "file-certificate",
-        "title": "Prevent Remove",
+        "title": "Ramsey2 - Prevent Remove",
         "displayCardType": "Prevent Remove",
         "description": "This card can prevent its removal"
     }, {
         "type": "DrilldownCard",
         "source": "./src/cards/DrilldownCard",
         "miniCardIcon": "list-view",
-        "title": "Drilldown Example",
+        "title": "Ramsey2 - Drilldown Example",
         "displayCardType": "Drilldown Example",
         "description": "This card demostrates drilldown pattern"
     }, {
         "type": "LoadingStateCard",
         "source": "./src/cards/LoadingStateCard",
         "miniCardIcon": "download",
-        "title": "Loading State",
+        "title": "Ramsey2 - Loading State",
         "displayCardType": "Loading State",
         "description": "This card sets it state to loading for 10 seconds"
     }, {
         "type": "ErrorMessageCard",
         "source": "./src/cards/ErrorMessageCard",
-        "title": "Error Message",
+        "title": "Ramsey2 - Error Message",
         "displayCardType": "Error Message",
         "description": "This card sets an error message to display"
     }, {
         "type": "PropsCard",
         "source": "./src/cards/PropsCard",
-        "title": "Properties",
+        "title": "Ramsey2 - Properties",
         "displayCardType": "Properties Card",
         "description": "This card displays non-function properties",
         "pageRoute": {
@@ -184,12 +184,12 @@ module.exports = {
     }, {
         "type": "MarkdownTemplate",
         "source": "./src/cards/MarkdownTemplate.jsx",
-        "title": "Markdown Template",
+        "title": "Ramsey2 - Markdown Template",
         "displayCardType": "Markdown Template",
         "description": "Markdown Template",
         "template": {
             "image": "./src/assets/markdown.jpeg",
-            "title": "Markdown Template"
+            "title": "Ramsey2 - Markdown Template"
         },
         "customConfiguration": {
             "source": "./src/cards/MarkdownTemplateConfig.jsx"

@@ -13,7 +13,14 @@ const styles = {
     }
 };
 
+/**
+ * Demonstrates the use of the `drillDown` function to navigate between views in a card.
+ *
+ * @param {Object.<string, any>} props Component props
+ * @returns {React.Component}          The Drilldown card
+ */
 const DrilldownCard = (props) => {
+
     const { classes, cardControl: { drilldown, resetDrilldown } = {}} = props;
     const intl = useIntl();
     const [ count, setCount ] = useState(0);
