@@ -17,7 +17,7 @@ const ThrowErrorComponent = () => {
  * @param {Object.<string, any>} props Component props
  * @returns {React.Component}          The ThrowError card
  */
-function ThrowErrorCard(props) {
+const ThrowErrorCard = (props) => {
     const { cardControl: { setErrorMessage }} = props;
     const [dashboardError, setDashboardError] = useState(false);
     const intl = useIntl();
@@ -57,7 +57,7 @@ function ThrowErrorCard(props) {
             )}
         </React.Fragment>
     );
-}
+};
 
 ThrowErrorCard.propTypes = {
     cardControl: PropTypes.object

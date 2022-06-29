@@ -28,7 +28,8 @@ const styles = () => ({
 const cacheKey = 'graphql-card:sites';
 
 /**
- * Constructs a GraphQL query to a buildings service.
+ * Demonstrates how to use a GraphQL query to make an Ethos request. Uses the SDK's
+ * {code}getEthosQuery{code} function
  *
  * It uses the "list-buildings" query defined in this extension's `extension.js` file.
  *

@@ -47,7 +47,7 @@ export default withIntl(withStyles(styles)(PreventRemoveCard));
  * @param {Object.<string, any>} props Component props
  * @returns {React.Component}          A Switch control that enables/disables card removal
  */
- function TogglePreventRemove(props) {
+ const TogglePreventRemove = (props) => {
     const [ toggle, setToggle ] = useState(false);
 
     function toggleSwitch() {
@@ -68,7 +68,7 @@ export default withIntl(withStyles(styles)(PreventRemoveCard));
             onChange={toggleSwitch}
         />
     );
-}
+};
 
 TogglePreventRemove.propTypes = {
     setPreventRemove: PropTypes.func.isRequired,

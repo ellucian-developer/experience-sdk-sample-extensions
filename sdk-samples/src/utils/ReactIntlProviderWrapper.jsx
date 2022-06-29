@@ -6,7 +6,7 @@ import { getMessages } from '../i18n/intlUtility';
 /**
  * An HOC (higher-order component) that injects react-intel internationalization resources into the given component.
  *
- * Works in concert with react-intl's `useIntl` hook, which the wrapped components can use
+ * Works in concert with react-intl's {code}useIntl{code} hook, which the wrapped components can use
  * to retrieve internationalization properties.
  *
  * @param {React.Component} Component The component into which we're injecting internationalization properties.

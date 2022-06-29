@@ -51,7 +51,7 @@ export default withIntl(withStyles(styles)(ErrorMessageCard));
  * @param {Object.<string, any>} props Component props
  * @returns {React.Component}          The ErrorMessage card
  */
-function ErrorMessage(props) {
+const ErrorMessage = (props) => {
     const [ headerMessage, setHeaderMessage ] = useState('Access denied');
     const [ textMessage, setTextMessage ] = useState('You are not permitted to see this data');
     const [ iconName, setIconName ] = useState('privacy');
@@ -148,7 +148,7 @@ function ErrorMessage(props) {
             </Button>
         </div>
     );
-}
+};
 
 ErrorMessage.propTypes = {
     setErrorMessage: PropTypes.func.isRequired,
