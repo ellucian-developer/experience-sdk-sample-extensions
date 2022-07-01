@@ -30,8 +30,8 @@ const styles = () => ({
  *
  * This page is invoked from the Props card.
  *
- * @param {Object.<string, any>} props Page props
- * @returns {React.Component}          The Props card
+ * @param {Object.<string, *>} props Page props
+ * @returns {React.Component}        The Props card
  */
 const PropsPage = (props) => {
     const { classes } = props;

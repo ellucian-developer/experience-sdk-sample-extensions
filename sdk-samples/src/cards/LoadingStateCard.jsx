@@ -43,8 +43,8 @@ export default withIntl(withStyles(styles)(LoadingStateCard));
 /**
  * Renders a button that puts the card in a "loading" state for 10 seconds.
  *
- * @param {Object.<string, any>} props Component properties
- * @returns {React.Component}          A button that activates the loading state
+ * @param {Object.<string, *>} props Component properties
+ * @returns {React.Component}        A button that activates the loading state
  */
 const LoadingButton = (props) => {
     const intl = useIntl();

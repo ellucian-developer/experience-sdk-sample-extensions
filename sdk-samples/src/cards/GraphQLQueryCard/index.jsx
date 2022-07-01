@@ -33,8 +33,8 @@ const cacheKey = 'graphql-card:sites';
  *
  * It uses the "list-buildings" query defined in this extension's `extension.js` file.
  *
- * @param {Object.<string, any>} props Component props
- * @returns {React.Component}          The Props card
+ * @param {Object.<string, *>} props Component props
+ * @returns {React.Component}        The Props card
  */
 const GraphQLQueryCard = (props) => {
     const {

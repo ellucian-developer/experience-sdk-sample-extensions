@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { getMessages } from '../i18n/intlUtility';
 
 /**
- * An HOC (higher-order component) that injects react-intel internationalization resources into the given component.
+ * An HOC (higher-order component) that injects react-intl internationalization resources into the given component.
  *
  * Works in concert with react-intl's {code}useIntl{code} hook, which the wrapped components can use
  * to retrieve internationalization properties.

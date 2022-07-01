@@ -44,8 +44,8 @@ export default withIntl(withStyles(styles)(PreventRemoveCard));
 /**
  * A switch to enable/disable the ability for users to remove a card from the Experience dashboard.
  *
- * @param {Object.<string, any>} props Component props
- * @returns {React.Component}          A Switch control that enables/disables card removal
+ * @param {Object.<string, *>} props Component props
+ * @returns {React.Component}        A Switch control that enables/disables card removal
  */
  const TogglePreventRemove = (props) => {
     const [ toggle, setToggle ] = useState(false);

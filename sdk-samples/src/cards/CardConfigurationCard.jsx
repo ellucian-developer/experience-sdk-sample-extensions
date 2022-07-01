@@ -15,8 +15,8 @@ const styles = () => ({
 /**
  * Demonstrates the use of client configuration in a card.
  *
- * @param {Object.<string, any>} props Component props
- * @returns {React.Component}          The CardConfiguration card
+ * @param {Object.<string, *>} props Component props
+ * @returns {React.Component}        The CardConfiguration card
  */
 const CardConfigurationCard = (props) => {
 

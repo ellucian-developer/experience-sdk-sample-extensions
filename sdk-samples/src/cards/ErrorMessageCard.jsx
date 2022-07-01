@@ -48,8 +48,8 @@ export default withIntl(withStyles(styles)(ErrorMessageCard));
 /**
  * Collects the attributes of the error message
  *
- * @param {Object.<string, any>} props Component props
- * @returns {React.Component}          The ErrorMessage card
+ * @param {Object.<string, *>} props Component props
+ * @returns {React.Component}        The ErrorMessage card
  */
 const ErrorMessage = (props) => {
     const [ headerMessage, setHeaderMessage ] = useState('Access denied');

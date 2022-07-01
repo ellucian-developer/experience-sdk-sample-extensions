@@ -20,8 +20,8 @@ const cacheKey = 'local-cache-card:view-count';
 /**
  * Demonstrates the use of the SDK's `storeItem` function to cache data on browser local storage.
  *
- * @param {Object.<string, any>} props Component props
- * @returns {React.Component}          The Cache card
+ * @param {Object.<string, *>} props Component props
+ * @returns {React.Component}        The Cache card
  */
 const CacheCard = (props) => {
     const { classes, cache: { getItem, storeItem, removeItem }} = props;

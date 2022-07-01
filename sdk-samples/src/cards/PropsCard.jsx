@@ -32,8 +32,8 @@ const styles = () => ({
  * Demonstrates how to access all of the data and functions provided to extension cards,
  * via both props and hooks.
  *
- * @param {Object.<string, any>} props Component properties
- * @returns {React.Component}          The Props card
+ * @param {Object.<string, *>} props Component properties
+ * @returns {React.Component}        The Props card
  */
 const PropsCard = (props) => {
     const { classes } = props;

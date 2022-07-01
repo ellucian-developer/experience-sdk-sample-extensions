@@ -14,8 +14,8 @@ const ThrowErrorComponent = () => {
  * A card that demonstrates how to handle both caught and uncaught exceptions. Uses the
  * SDK {code}setErrorMessage{code} function.
  *
- * @param {Object.<string, any>} props Component props
- * @returns {React.Component}          The ThrowError card
+ * @param {Object.<string, *>} props Component props
+ * @returns {React.Component}        The ThrowError card
  */
 const ThrowErrorCard = (props) => {
     const { cardControl: { setErrorMessage }} = props;
