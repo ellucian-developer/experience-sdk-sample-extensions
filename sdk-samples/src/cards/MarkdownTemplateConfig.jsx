@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { TextField} from '@ellucian/react-design-system/core';
 
-const MarkdownTemplateConfig = props => {
+const MarkdownTemplateConfig = (props) => {
     const {
         cardControl: {
             setCustomConfiguration,
@@ -45,7 +45,7 @@ const MarkdownTemplateConfig = props => {
             onChange={handleChange}
             placeholder="Let us know what you think!"
             value={markdown}
-            fullwidth
+            fullWidth
         />
     );
 };

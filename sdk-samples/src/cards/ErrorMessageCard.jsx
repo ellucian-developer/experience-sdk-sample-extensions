@@ -18,6 +18,10 @@ const styles = () => ({
     }
 });
 
+/**
+ * Demonstrates the use of the SDK's {code}setErrorMessage{code} function to display a card-level
+ * error message
+ */
 class ErrorMessageCard extends React.Component {
     render() {
         const { classes, cardControl: { setErrorMessage }, intl } = this.props;
@@ -41,7 +45,13 @@ ErrorMessageCard.propTypes = {
 
 export default withIntl(withStyles(styles)(ErrorMessageCard));
 
-function ErrorMessage(props) {
+/**
+ * Collects the attributes of the error message
+ *
+ * @param {Object.<string, *>} props Component props
+ * @returns {React.Component}        The ErrorMessage card
+ */
+const ErrorMessage = (props) => {
     const [ headerMessage, setHeaderMessage ] = useState('Access denied');
     const [ textMessage, setTextMessage ] = useState('You are not permitted to see this data');
     const [ iconName, setIconName ] = useState('privacy');
@@ -49,6 +59,11 @@ function ErrorMessage(props) {
     const intl = useIntl();
     const { classes } = props;
 
+    /**
+     * Set the appropriate message, based on which text field fired the change.
+     *
+     * @param {Event} event The change event
+     */
     const handleChange = (event) => {
         const { name, value } = event.target;
 
@@ -70,6 +85,9 @@ function ErrorMessage(props) {
         }
     };
 
+    /**
+     * Show the card error message, using the provided values to configure it
+     */
     function submitValues() {
         const { setErrorMessage } = props;
 
@@ -130,7 +148,7 @@ function ErrorMessage(props) {
             </Button>
         </div>
     );
-}
+};
 
 ErrorMessage.propTypes = {
     setErrorMessage: PropTypes.func.isRequired,

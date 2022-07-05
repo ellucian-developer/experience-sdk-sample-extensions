@@ -13,6 +13,10 @@ const styles = () => ({
     }
 });
 
+/**
+ * Demonstrates how to put a card in the "loading" state, using he SDK's {code}setLoadingStatus{code}
+ * function.
+ */
 class LoadingStateCard extends React.Component {
     render() {
         const { classes, cardControl: { setLoadingStatus }, intl } = this.props;
@@ -36,27 +40,42 @@ LoadingStateCard.propTypes = {
 
 export default withIntl(withStyles(styles)(LoadingStateCard));
 
-function LoadingButton(props) {
+/**
+ * Renders a button that puts the card in a "loading" state for 10 seconds.
+ *
+ * @param {Object.<string, *>} props Component properties
+ * @returns {React.Component}        A button that activates the loading state
+ */
+const LoadingButton = (props) => {
     const intl = useIntl();
     const [ status, setStatus ] = useState('loaded');
 
+    /**
+     * Put the card in "loading" mode
+     */
     function reload() {
+
         setStatus('loading');
         const { setLoadingStatus } = props;
 
-        if (setLoadingStatus != undefined) {
-            setLoadingStatus(true);
-        }
+        // put the card in "loading" mode
+        setLoadingStatus(true);
+
+        // create an artificial delay
         setTimeout(reset, 10000);
+
     }
 
+    /**
+     * Disable the card's loading mode
+     */
     function reset() {
+
         setStatus('loaded');
+
         const { setLoadingStatus } = props;
 
-        if (setLoadingStatus != undefined) {
-            setLoadingStatus(false);
-        }
+        setLoadingStatus(false);
     }
 
     return (
@@ -64,12 +83,12 @@ function LoadingButton(props) {
             <Typography variant="body2" color="textPrimary" paragraph>
                 {intl.formatMessage({ id: 'LoadingStateCard-status' }, { status })}
             </Typography>
-            <Button aria-label={'Set loading status'} onClick={reload}>
+            <Button aria-label={intl.formatMessage({ id: 'LoadingStateCard-reload' })} onClick={reload}>
                 {intl.formatMessage({ id: 'LoadingStateCard-reload' })}
             </Button>
         </div>
     );
-}
+};
 
 LoadingButton.propTypes = {
     setLoadingStatus: PropTypes.func.isRequired

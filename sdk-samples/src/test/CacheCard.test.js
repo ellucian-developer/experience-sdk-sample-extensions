@@ -6,12 +6,12 @@ describe('<CacheCard', () => {
     it('Pulls data from cache', () => {
 
         const mockCacheFunctions = {
-            getItem: jest.fn(),
-            setItem: jest.fn(),
-            removeItem: jest.fn()
+            getItem: () => ({}),
+            removeItem: jest.fn(),
+            storeItem: jest.fn()
         };
 
         const card = mountWithExtensionProps(<CacheCard cache={mockCacheFunctions} />);
-        expect(card.text().includes('View Count: 0')).toBe(true);
+        expect(card.text().includes('View Count: 1')).toBe(true);
     });
 });
