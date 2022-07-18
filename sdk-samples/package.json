@@ -23,7 +23,7 @@
     "@ellucian/experience-extension": "https://cdn.elluciancloud.com/assets/SDK/5.8.0/ellucian-experience-extension-5.8.0.tgz",
     "@ellucian/react-design-system": "https://cdn.elluciancloud.com/assets/EDS2/6.4.0/umd/path_design_system.tgz",
     "classnames": "2.2.6",
-    "moment": "2.29.3",
+    "moment": "2.29.4",
     "prop-types": "15.7.2",
     "react": "16.9.0",
     "react-dom": "16.9.0",
