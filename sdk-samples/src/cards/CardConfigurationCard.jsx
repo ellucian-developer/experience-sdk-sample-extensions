@@ -12,7 +12,15 @@ const styles = () => ({
     }
 });
 
+/**
+ * Demonstrates the use of client configuration in a card.
+ *
+ * @param {Object.<string, *>} props Component props
+ * @returns {React.Component}        The CardConfiguration card
+ */
 const CardConfigurationCard = (props) => {
+
+    // get client configuration items
     const { classes, cardInfo: { configuration } } = props;
 
     const configurationItems = [];
