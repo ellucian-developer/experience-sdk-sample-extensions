@@ -15,7 +15,8 @@ const styles = () => ({
     }
 });
 
-const cacheKey = 'local-cache-card:view-count';
+const CACHE_KEY = 'local-cache-card:view-count';
+const CACHE_SCOPE = 'local-cache-card:scope';
 
 /**
  * Demonstrates the use of the SDK's `storeItem` function to cache data on browser local storage.
@@ -33,7 +34,7 @@ const CacheCard = (props) => {
      */
     const resetCount = () => {
         setViewedCount(0);
-        removeItem({ key: cacheKey });
+        removeItem({ key: CACHE_KEY, scope: CACHE_SCOPE });
     };
 
     useEffect(() => {
@@ -42,9 +43,9 @@ const CacheCard = (props) => {
          * Updates the cached view count
          */
         const incrementCount = () => {
-            const { data } = getItem({ key: cacheKey });
+            const { data } = getItem({ key: CACHE_KEY, scope: CACHE_SCOPE });
             const count = data ? data.count + 1 : 1;
-            storeItem({ key: cacheKey, data: { count } });
+            storeItem({ key: CACHE_KEY, scope: CACHE_SCOPE,  data: { count } });
             setViewedCount(count);
         };
 
