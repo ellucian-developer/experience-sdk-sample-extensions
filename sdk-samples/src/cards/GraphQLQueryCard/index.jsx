@@ -77,7 +77,7 @@ const GraphQLQueryCard = (props) => {
                         storeItem({ key: cacheKey, data: sites });
                         setLoadingStatus(false);
                     } catch (error) {
-                        console.log('ethosQuery failed', error);
+                        console.error('ethosQuery failed', error);
                         setErrorMessage({
                             headerMessage: intl.formatMessage({ id: 'GraphQLQueryCard-fetchFailed' }),
                             textMessage: intl.formatMessage({ id: 'GraphQLQueryCard-sitesFetchFailed' }),
@@ -106,7 +106,7 @@ const GraphQLQueryCard = (props) => {
                             const { data: { buildings: { edges: buildingEdges } = [] } = {} } = buildingsData;
                             buildings = buildingEdges.map( edge => edge.node );
                         } catch (error) {
-                            console.log('ethosQuery failed', error);
+                            console.error('ethosQuery failed', error);
                             setErrorMessage({
                                 headerMessage: intl.formatMessage({ id: 'GraphQLQueryCard-fetchFailed' }),
                                 textMessage: intl.formatMessage({ id: 'GraphQLQueryCard-buildingsFetchFailed' }),

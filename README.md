@@ -12,6 +12,9 @@ The results of the request for sites are stored in the dashboard's cache. See ho
 The card tells the dashboard to show the skeleton-loading components while the Sites are fetched from Ethos or cache. This is handled by the two calls to setLoadingStatus in the initial useEffect hook.
 Multiple languages are supported in this card by use of the ReactIntlProviderWrapper. withIntl is used in the statement exporting this card. The strings to be replaced by local versions are throughout the JSX with calls to intl.formatMessage, passing in id to the string to use and optionally values to use for substituting values.
 
+This card requires Data Access to be setup, and having the Buildings, Persons, and Sites GraphQL resources assigned to your Ellucian Experience application.
+Follow the [Add GraphQL resources to Ellucian Experience](https://resources.elluciancloud.com/bundle/ellucian_experience_acn_configure/page/t_experience_add_graphql_resources.html) section of the Ellucian Experience - Configure documentation for detailed instructions.
+
 ### CacheCard
 Like the GraphQLCard, this uses the cache available to cards. This card will remember how many times this card is loaded. When you press refresh in your browser, this card loads and increments the counter stored in the cache. To remove this value from the cache, hit the Reset button.
 The Ellucian Path Design System is used to create visual components. Check out the returned JSX from this function. The JSS used to style the card is in the styles variable, and the withStyles Higher-Order Component is used in the statement exporting this card.
