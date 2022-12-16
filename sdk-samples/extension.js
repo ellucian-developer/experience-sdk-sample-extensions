@@ -188,8 +188,9 @@ module.exports = {
         "displayCardType": "Markdown Template",
         "description": "Markdown Template",
         "template": {
-            "image": "./src/assets/markdown.jpeg",
-            "title": "Markdown Template"
+            "icon": "lightbulb",
+            "title": "Markdown Template",
+            "description": "Markdown template description"
         },
         "customConfiguration": {
             "source": "./src/cards/MarkdownTemplateConfig.jsx"
