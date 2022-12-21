@@ -19,9 +19,9 @@
     "test": "cross-env BABEL_ENV=test JEST_JUNIT_OUTPUT=./report.xml jest --coverage"
   },
   "dependencies": {
-    "@ellucian/ds-icons": "https://design-system-dev-cdn.10320.elluciancloud.com/assets/SDK/path68upgrade/path_design_system_icons.tgz",
+    "@ellucian/ds-icons": "https://cdn.elluciancloud.com/assets/EDS2/6.8.0/umd/path_design_system_icons.tgz",
     "@ellucian/experience-extension": "https://design-system-dev-cdn.10320.elluciancloud.com/assets/SDK/path68upgrade/ellucian-experience-extension-6.0.0.tgz",
-    "@ellucian/react-design-system": "https://design-system-dev-cdn.10320.elluciancloud.com/assets/SDK/path68upgrade/path_design_system.tgz",
+    "@ellucian/react-design-system": "https://cdn.elluciancloud.com/assets/EDS2/6.8.0/umd/path_design_system.tgz",
     "classnames": "2.2.6",
     "moment": "2.29.4",
     "prop-types": "15.7.2",
