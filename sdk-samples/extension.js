@@ -188,7 +188,7 @@ module.exports = {
         "displayCardType": "Markdown Template",
         "description": "Markdown Template",
         "template": {
-            "icon": "lightbulb",
+            "icon": "applications",
             "title": "Markdown Template",
             "description": "Markdown template description"
         },
