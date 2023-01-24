@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@ellucian/ds-icons": "https://cdn.elluciancloud.com/assets/EDS2/6.8.0/umd/path_design_system_icons.tgz",
-    "@ellucian/experience-extension": "https://design-system-dev-cdn.10320.elluciancloud.com/assets/SDK/path68upgrade/ellucian-experience-extension-6.0.0.tgz",
+    "@ellucian/experience-extension": "https://cdn.elluciancloud.com/assets/SDK/6.0.0/ellucian-experience-extension-6.0.0.tgz",
     "@ellucian/react-design-system": "https://cdn.elluciancloud.com/assets/EDS2/6.8.0/umd/path_design_system.tgz",
     "classnames": "2.2.6",
     "moment": "2.29.4",
@@ -37,11 +37,11 @@
     "@babel/preset-env": "7.12.1",
     "@babel/preset-react": "7.12.1",
     "@calm/eslint-plugin-react-intl": "1.4.1",
+    "@wojtekmaj/enzyme-adapter-react-17": "0.6.7",
     "babel-plugin-rewire": "1.2.0",
     "cross-env": "7.0.2",
     "dotenv": "8.2.0",
     "enzyme": "3.11.0",
-    "@wojtekmaj/enzyme-adapter-react-17": "0.6.7",
     "eslint": "8.8.0",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-jest": "26.1.1",
@@ -60,3 +60,4 @@
     "webpack-dev-server": "4.7.4"
   }
 }
+
