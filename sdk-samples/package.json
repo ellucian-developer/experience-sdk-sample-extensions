@@ -37,11 +37,11 @@
     "@babel/preset-env": "7.12.1",
     "@babel/preset-react": "7.12.1",
     "@calm/eslint-plugin-react-intl": "1.4.1",
+    "@wojtekmaj/enzyme-adapter-react-17": "0.6.7",
     "babel-plugin-rewire": "1.2.0",
     "cross-env": "7.0.2",
     "dotenv": "8.2.0",
     "enzyme": "3.11.0",
-    "enzyme-adapter-react-16": "1.15.5",
     "eslint": "8.8.0",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-jest": "26.1.1",
@@ -54,10 +54,10 @@
     "jest-fetch-mock": "3.0.3",
     "jest-junit": "13.0.0",
     "jsonpath": "1.1.1",
-    "react-test-renderer": "16.9.0",
     "rewiremock": "3.14.3",
     "webpack": "5.69.1",
     "webpack-cli": "4.10.0",
     "webpack-dev-server": "4.7.4"
   }
 }
+

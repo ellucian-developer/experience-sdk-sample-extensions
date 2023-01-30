@@ -1,5 +1,5 @@
 var enzyme = require('enzyme');
-var Adapter = require('enzyme-adapter-react-16');
+var Adapter = require('@wojtekmaj/enzyme-adapter-react-17');
 
 // polyfill window.crypto for testing nanoid
 var nodeCrypto = require('crypto');
