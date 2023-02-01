@@ -17,7 +17,7 @@ import {
     useCardControl,
     usePageControl,
     usePageInfo
-} from '@ellucian/experience-extension/extension-utilities'
+} from '@ellucian/experience-extension-utils';
 
 const styles = () => ({
     card: {
