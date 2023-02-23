@@ -17,6 +17,8 @@ import {
     usePageControl,
     usePageInfo
 } from '@ellucian/experience-extension-utils';
+import { useIntl } from 'react-intl';
+import { withIntl } from '../utils/ReactIntlProviderWrapper';
 
 const styles = () => ({
     card: {
@@ -36,9 +38,9 @@ const styles = () => ({
 const PropsPage = (props) => {
     const { classes } = props;
     const { setPageTitle } = usePageControl();
+    const intl = useIntl();
 
-    // use SDK function to set the page title
-    setPageTitle("Props and Hooks");
+    setPageTitle(intl.formatMessage({ id: 'Page-title' }));
 
     return (
         <div className={classes.card}>
@@ -76,4 +78,4 @@ PropsPage.propTypes = {
     classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(PropsPage);
+export default withIntl(withStyles(styles)(PropsPage));

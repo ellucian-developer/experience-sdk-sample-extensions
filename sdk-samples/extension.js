@@ -1,3 +1,5 @@
+const helper = require('./src/i18n/manifest.helper.js');
+
 module.exports = {
     "name": "sdk-samples",
     "publisher": "Sample",
@@ -175,9 +177,30 @@ module.exports = {
     }, {
         "type": "PropsCard",
         "source": "./src/cards/PropsCard",
-        "title": "Properties",
-        "displayCardType": "Properties Card",
-        "description": "This card displays non-function properties",
+        "title": {
+            "en-US": helper('en-US', 'Manifest-title'),
+            "en-AU": helper('en-AU', 'Manifest-title'),
+            "en-GB": helper('en-GB', 'Manifest-title'),
+            "fr-CA": helper('fr-CA', 'Manifest-title'),
+            "ar": helper('ar', 'Manifest-title'),
+            "es": helper('es', 'Manifest-title')
+        },
+        "displayCardType": {
+            "en-US": helper('en-US', 'Manifest-displayCardType'),
+            "en-AU": helper('en-AU', 'Manifest-displayCardType'),
+            "en-GB": helper('en-GB', 'Manifest-displayCardType'),
+            "fr-CA": helper('fr-CA', 'Manifest-displayCardType'),
+            "ar": helper('ar', 'Manifest-displayCardType'),
+            "es": helper('es', 'Manifest-displayCardType')
+        },
+        "description": {
+            "en-US": helper('en-US', 'Manifest-description'),
+            "en-AU": helper('en-AU', 'Manifest-description'),
+            "en-GB": helper('en-GB', 'Manifest-description'),
+            "fr-CA": helper('fr-CA', 'Manifest-description'),
+            "ar": helper('ar', 'Manifest-description'),
+            "es": helper('es', 'Manifest-description')
+        },
         "pageRoute": {
             "route": "/"
         }
