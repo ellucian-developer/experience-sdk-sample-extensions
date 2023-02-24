@@ -1,5 +1,5 @@
 import React from 'react';
-import ThrowErrorCard from '../cards/ThrowErrorCard';
+import ThrowErrorCard from '../../cards/ThrowErrorCard';
 import { shallow } from 'enzyme';
 
 describe('<ThrowErrorCard>', () => {

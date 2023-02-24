@@ -1,6 +1,6 @@
 import React from 'react';
-import ErrorMessageCard from '../cards/ErrorMessageCard';
-import { mountWithExtensionProps } from '../utils/test-utils/enzymeUtil';
+import ErrorMessageCard from '../../cards/ErrorMessageCard';
+import { mountWithExtensionProps } from '../../utils/test-utils/enzymeUtil';
 import { shallow } from 'enzyme';
 
 describe('<ErrorMessageCard>', () => {

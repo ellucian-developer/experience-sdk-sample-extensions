@@ -4,7 +4,7 @@ describe('validates i18nHelper', () => {
     it('validates with en-US', () => {
         const enUSTranslation = i18nHelper('en-US', 'Manifest-title');
 
-        expect(enUSTranslation).toBe('English US Props Title');
+        expect(enUSTranslation).toBe('Props Title');
     });
     it.skip('validates with en-AU', () => {
         const enAUTranslation = i18nHelper('en-AU', 'Manifest-title');

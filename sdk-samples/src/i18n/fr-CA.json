@@ -25,6 +25,7 @@
     "Manifest-description": "Description des accessoires",
     "Manifest-displayCardType": "Titre d'affichage des accessoires",
     "Manifest-title": "Titre des accessoires",
+    "Page-title": "Props and Hooks Title",
     "PreventRemoveCard-switchLabel": "Activer la capacité pour supprimer la carte :",
     "ThrowErrorCard-errorHeaderMessage": "Une erreur attendue s'est produite",
     "ThrowErrorCard-errorTextMessage": "Cette erreur a été détectée par le code d'extension et setErrorMessage a été déclenché intentionnellement.",
