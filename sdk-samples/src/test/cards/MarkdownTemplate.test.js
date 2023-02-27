@@ -1,6 +1,6 @@
 import React from 'react';
-import MarkdownTemplate from '../cards/MarkdownTemplate';
-import { mountWithExtensionProps } from '../utils/test-utils/enzymeUtil';
+import MarkdownTemplate from '../../cards/MarkdownTemplate';
+import { mountWithExtensionProps } from '../../utils/test-utils/enzymeUtil';
 
 jest.mock("react-markdown", () => (props) => {
     return <>{props.children}</>

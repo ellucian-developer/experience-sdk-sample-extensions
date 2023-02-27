@@ -1,6 +1,6 @@
 import React from 'react';
-import CacheCard from '../cards/CacheCard';
-import { mountWithExtensionProps } from '../utils/test-utils/enzymeUtil';
+import CacheCard from '../../cards/CacheCard';
+import { mountWithExtensionProps } from '../../utils/test-utils/enzymeUtil';
 
 describe('<CacheCard', () => {
     it('Pulls data from cache', () => {
