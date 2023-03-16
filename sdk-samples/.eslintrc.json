@@ -1,5 +1,5 @@
 {
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "extends": [
     "eslint:recommended",
     "plugin:import/errors",
@@ -9,10 +9,16 @@
     "plugin:jest/recommended"
   ],
   "parserOptions": {
+    "babelOptions": {
+      "presets": [
+        "@babel/preset-react"
+      ]
+    },
     "ecmaFeatures": {
       "experimentalObjectRestSpread": true,
       "jsx": true
     },
+    "requireConfigFile": false,
     "sourceType": "module"
   },
   "settings": {
@@ -303,7 +309,11 @@
       "error",
       "never"
     ],
-    "valid-jsdoc": "error",
+    "valid-jsdoc": [ "error",
+        {
+             "requireReturn": false
+        }
+    ],
     "vars-on-top": "error",
     "wrap-iife": "error",
     "wrap-regex": "error",
@@ -312,7 +322,6 @@
       "error",
       "never"
     ],
-    "@calm/react-intl/missing-formatted-message": [1, { "noTrailingWhitespace": true, "ignoreLinks": true }],
     "@calm/react-intl/missing-attribute": [1,
         {
             "noTrailingWhitespace": true,

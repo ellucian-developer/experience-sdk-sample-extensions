@@ -27,6 +27,15 @@ const styles = () => ({
 
 const cacheKey = 'graphql-card:sites';
 
+/**
+ * Demonstrates how to use a GraphQL query to make an Ethos request. Uses the SDK's
+ * {code}getEthosQuery{code} function
+ *
+ * It uses the "list-buildings" query defined in this extension's `extension.js` file.
+ *
+ * @param {Object.<string, *>} props Component props
+ * @returns {React.Component}        The Props card
+ */
 const GraphQLQueryCard = (props) => {
     const {
         classes,
@@ -68,7 +77,7 @@ const GraphQLQueryCard = (props) => {
                         storeItem({ key: cacheKey, data: sites });
                         setLoadingStatus(false);
                     } catch (error) {
-                        console.log('ethosQuery failed', error);
+                        console.error('ethosQuery failed', error);
                         setErrorMessage({
                             headerMessage: intl.formatMessage({ id: 'GraphQLQueryCard-fetchFailed' }),
                             textMessage: intl.formatMessage({ id: 'GraphQLQueryCard-sitesFetchFailed' }),
@@ -97,7 +106,7 @@ const GraphQLQueryCard = (props) => {
                             const { data: { buildings: { edges: buildingEdges } = [] } = {} } = buildingsData;
                             buildings = buildingEdges.map( edge => edge.node );
                         } catch (error) {
-                            console.log('ethosQuery failed', error);
+                            console.error('ethosQuery failed', error);
                             setErrorMessage({
                                 headerMessage: intl.formatMessage({ id: 'GraphQLQueryCard-fetchFailed' }),
                                 textMessage: intl.formatMessage({ id: 'GraphQLQueryCard-buildingsFetchFailed' }),
@@ -113,7 +122,12 @@ const GraphQLQueryCard = (props) => {
         [ selectedSite ]
     );
 
-    const handleChange = (event) => {
+    /**
+     * Handle a dropdown site selection, by loading the associated buildings
+     *
+     * @param {Event} event The dropdown selection event.
+     */
+    const siteSelected = (event) => {
         setSelectedSite(event.target.value);
     };
 
@@ -126,7 +140,7 @@ const GraphQLQueryCard = (props) => {
                         FormControlProps={{ classes: { root: classes.formControl } }}
                         id="graphql-query-card-sites-dropdown"
                         label={intl.formatMessage({ id: 'GraphQLQueryCard-sites' })}
-                        onChange={handleChange}
+                        onChange={siteSelected}
                         value={selectedSite}
                         fullWidth
                     >

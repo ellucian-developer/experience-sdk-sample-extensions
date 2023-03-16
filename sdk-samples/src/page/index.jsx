@@ -16,7 +16,9 @@ import {
     useCardControl,
     usePageControl,
     usePageInfo
-} from '@ellucian/experience-extension/extension-utilities'
+} from '@ellucian/experience-extension-utils';
+import { useIntl } from 'react-intl';
+import { withIntl } from '../utils/ReactIntlProviderWrapper';
 
 const styles = () => ({
     card: {
@@ -24,11 +26,21 @@ const styles = () => ({
     }
 });
 
+/**
+ * Demonstrates how to access all of the data and functions provided to extension cards,
+ * via both props and hooks.
+ *
+ * This page is invoked from the Props card.
+ *
+ * @param {Object.<string, *>} props Page props
+ * @returns {React.Component}        The Props card
+ */
 const PropsPage = (props) => {
     const { classes } = props;
     const { setPageTitle } = usePageControl();
+    const intl = useIntl();
 
-    setPageTitle("Props and Hooks");
+    setPageTitle(intl.formatMessage({ id: 'Page-title' }));
 
     return (
         <div className={classes.card}>
@@ -66,4 +78,4 @@ PropsPage.propTypes = {
     classes: PropTypes.object.isRequired
 };
 
-export default withStyles(styles)(PropsPage);
+export default withIntl(withStyles(styles)(PropsPage));

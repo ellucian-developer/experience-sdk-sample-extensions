@@ -15,28 +15,43 @@ const styles = () => ({
     }
 });
 
-const cacheKey = 'local-cache-card:view-count';
+const CACHE_KEY = 'local-cache-card:view-count';
+const CACHE_SCOPE = 'local-cache-card:scope';
 
+/**
+ * Demonstrates the use of the SDK's `storeItem` function to cache data on browser local storage.
+ *
+ * @param {Object.<string, *>} props Component props
+ * @returns {React.Component}        The Cache card
+ */
 const CacheCard = (props) => {
     const { classes, cache: { getItem, storeItem, removeItem }} = props;
     const intl = useIntl();
     const [ viewedCount, setViewedCount ] = useState(0);
 
+    /**
+     * Resets the view count to zero.
+     */
     const resetCount = () => {
         setViewedCount(0);
-        removeItem({ key: cacheKey });
+        removeItem({ key: CACHE_KEY, scope: CACHE_SCOPE });
     };
 
     useEffect(() => {
-        const fetchCount = async () => {
-            const { data } = await getItem({ key: cacheKey });
+
+        /**
+         * Updates the cached view count
+         */
+        const incrementCount = () => {
+            const { data } = getItem({ key: CACHE_KEY, scope: CACHE_SCOPE });
             const count = data ? data.count + 1 : 1;
-            storeItem({ key: cacheKey, data: { count } });
+            storeItem({ key: CACHE_KEY, scope: CACHE_SCOPE,  data: { count } });
             setViewedCount(count);
         };
 
         // load and increment view count
-        fetchCount();
+        incrementCount();
+
     }, []);
 
     return (

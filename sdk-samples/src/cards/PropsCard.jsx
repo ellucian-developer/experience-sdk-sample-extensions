@@ -1,6 +1,6 @@
 import { withStyles } from '@ellucian/react-design-system/core/styles';
 import { spacing40 } from '@ellucian/react-design-system/core/styles/tokens';
-import { Typography, TextLink } from '@ellucian/react-design-system/core';
+import { Typography, TextLink, useDateLocale } from '@ellucian/react-design-system/core';
 import PropTypes from 'prop-types';
 import React from 'react';
 import {
@@ -16,7 +16,8 @@ import {
     useCardControl,
     usePageControl,
     usePageInfo
-} from '@ellucian/experience-extension/extension-utilities'
+} from '@ellucian/experience-extension-utils';
+import format from 'date-fns/format';
 
 const styles = () => ({
     card: {
@@ -27,11 +28,22 @@ const styles = () => ({
     }
 });
 
+/**
+ * Demonstrates how to access all of the data and functions provided to extension cards,
+ * via both props and hooks.
+ *
+ * @param {Object.<string, *>} props Component properties
+ * @returns {React.Component}        The Props card
+ */
 const PropsCard = (props) => {
     const { classes } = props;
-
+    // get a locale object for use with the format function, below.
+    const localeContext = useDateLocale();
     return (
         <div className={classes.card}>
+            <Typography>
+                {format(new Date(), 'PPPPp', {locale: localeContext})}
+            </Typography>
             <Typography variant={'h2'}>
                 Properties
             </Typography>

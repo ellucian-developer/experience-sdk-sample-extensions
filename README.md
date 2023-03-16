@@ -1,4 +1,4 @@
-Ellucian © 2022 Ellucian Company L.P. and its affiliates
+Ellucian © 2023 Ellucian Company L.P. and its affiliates
 
 ## experience-sdk-sample-extensions
 This repository is compiled of Experience extension sample cards meant to be used in conjunction with the Ellucian Experience SDK (Software Development Kit). These samples cards are located within the src/cards folder. Intended to be used by developers who want to learn how to build Experience extensions, these examples are provided as a resource to understand how react hooks, props, and UI components behave inside of an extension. 
@@ -11,6 +11,9 @@ The Ellucian Path Design System is used to create visual components. Check out t
 The results of the request for sites are stored in the dashboard's cache. See how storeItem is used in the initial useEffect.
 The card tells the dashboard to show the skeleton-loading components while the Sites are fetched from Ethos or cache. This is handled by the two calls to setLoadingStatus in the initial useEffect hook.
 Multiple languages are supported in this card by use of the ReactIntlProviderWrapper. withIntl is used in the statement exporting this card. The strings to be replaced by local versions are throughout the JSX with calls to intl.formatMessage, passing in id to the string to use and optionally values to use for substituting values.
+
+This card requires Data Access to be setup, and having the Buildings, Persons, and Sites GraphQL resources assigned to your Ellucian Experience application.
+Follow the [Add GraphQL resources to Ellucian Experience](https://resources.elluciancloud.com/bundle/ellucian_experience_acn_configure/page/t_experience_add_graphql_resources.html) section of the Ellucian Experience - Configure documentation for detailed instructions.
 
 ### CacheCard
 Like the GraphQLCard, this uses the cache available to cards. This card will remember how many times this card is loaded. When you press refresh in your browser, this card loads and increments the counter stored in the cache. To remove this value from the cache, hit the Reset button.
