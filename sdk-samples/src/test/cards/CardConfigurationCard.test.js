@@ -1,6 +1,6 @@
 import React from 'react';
-import CardConfigurationCard from '../cards/CardConfigurationCard';
-import { mountWithExtensionProps } from '../utils/test-utils/enzymeUtil';
+import CardConfigurationCard from '../../cards/CardConfigurationCard';
+import { mountWithExtensionProps } from '../../utils/test-utils/enzymeUtil';
 
 describe('<CardConfigurationCard>', () => {
     it('Loads with configuration values', () => {

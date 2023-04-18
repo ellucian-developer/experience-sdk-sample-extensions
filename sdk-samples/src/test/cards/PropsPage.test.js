@@ -1,15 +1,15 @@
-import React, { useContext } from 'react';
-import PropsCard from '../cards/PropsCard';
+import React from 'react';
+import PropsPage from '../../page/index';
 import { shallow } from 'enzyme';
 
-describe('<PropsCard>', () => {
-    it('Loads props', () => {
+describe('<PropsPage>', () => {
+    it('Loads props page', () => {
 
         const ContextProvider = React.createContext({});
 
         const wrapper = shallow(
             <ContextProvider.Provider>
-                <PropsCard />
+                <PropsPage />
             </ContextProvider.Provider>
         )
 
