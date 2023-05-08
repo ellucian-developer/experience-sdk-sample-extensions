@@ -25,4 +25,4 @@ export const getMessages = (userLocale) => {
             return baseMessages;
         }
     }
-}
+};

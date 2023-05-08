@@ -7,7 +7,7 @@ import { withIntl } from '../utils/ReactIntlProviderWrapper';
 const ThrowErrorComponent = () => {
     // This error is not caught by our extension code,
     // but Experience will catch it and display a generic error
-    throw new Error('Nothing but error')
+    throw new Error('Nothing but error');
 };
 
 /**
@@ -39,7 +39,7 @@ const ThrowErrorCard = (props) => {
             });
 
         }
-    }
+    };
 
     return (
         <React.Fragment>

@@ -68,20 +68,20 @@ const ErrorMessage = (props) => {
         const { name, value } = event.target;
 
         switch (name) {
-            case 'headerMessage':
-                setHeaderMessage(value);
-                break;
-            case 'textMessage':
-                setTextMessage(value);
-                break;
-            case 'iconName':
-                setIconName(value);
-                break;
-            case 'iconColor':
-                setIconColor(value);
-                break;
-            default:
-                break;
+        case 'headerMessage':
+            setHeaderMessage(value);
+            break;
+        case 'textMessage':
+            setTextMessage(value);
+            break;
+        case 'iconName':
+            setIconName(value);
+            break;
+        case 'iconColor':
+            setIconColor(value);
+            break;
+        default:
+            break;
         }
     };
 

@@ -47,7 +47,7 @@ export default withIntl(withStyles(styles)(PreventRemoveCard));
  * @param {Object.<string, *>} props Component props
  * @returns {React.Component}        A Switch control that enables/disables card removal
  */
- const TogglePreventRemove = (props) => {
+const TogglePreventRemove = (props) => {
     const [ toggle, setToggle ] = useState(false);
 
     function toggleSwitch() {
@@ -56,14 +56,14 @@ export default withIntl(withStyles(styles)(PreventRemoveCard));
 
         if (setPreventRemove != undefined) {
             setPreventRemove(!toggle);
-            setPreventRemoveMessage(`You can't remove me!`);
+            setPreventRemoveMessage('You can\'t remove me!');
         }
     }
 
     return (
         <Switch
             inputProps={{ 'aria-label': 'Toggle prevent remove' }}
-            id={`switch-prevent-remove`}
+            id={'switch-prevent-remove'}
             checked={toggle}
             onChange={toggleSwitch}
         />
