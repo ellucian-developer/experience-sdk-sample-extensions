@@ -45,11 +45,6 @@
     "mocha": true,
     "jest/globals": true
   },
-  "plugins": [
-    "react",
-    "jsx-a11y",
-    "@calm/react-intl"
-  ],
   "rules": {
     "indent": [
         "error",
