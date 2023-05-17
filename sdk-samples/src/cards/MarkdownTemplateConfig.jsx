@@ -71,18 +71,18 @@ const MarkdownTemplateConfig = (props) => {
         let invalidColor = false;
 
         // markdown text is required
-        if (markdown.length === 0) {
+        if (markdown === undefined || markdown.length === 0) {
             errorCount++;
         }
 
         // if a color was entered, make sure it's valid
-        if (color.length > 0 && !validColors.includes(color)) {
+        if (color !== undefined && color.length > 0 && !validColors.includes(color)) {
             errorCount++;
             invalidColor = true;
         }
 
         // update individual field error states
-        setMarkdownError(markdown.length === 0);
+        setMarkdownError(markdown === undefined || markdown.length === 0);
         setColorError(invalidColor);
 
         // register validation errors: whether there's an error, and how many errors there are
