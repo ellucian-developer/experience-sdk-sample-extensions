@@ -88,7 +88,7 @@ const MarkdownTemplateConfig = (props) => {
         // register validation errors: whether there's an error, and how many errors there are
         setIsCustomConfigurationValid(errorCount === 0, errorCount);
 
-    }
+    };
 
     return (
         <React.Fragment>
@@ -110,19 +110,19 @@ const MarkdownTemplateConfig = (props) => {
             <br/>
 
             <TextField
-                 label="Text Color"
-                 margin="normal"
-                 name="color"
-                 onBlur={updateCustomConfigVerification}
-                 onChange={handleColorChange}
-                 placeholder={props.intl.formatMessage({ id: 'MarkdownTemplate-color-placeholder' })}
-                 helperText={props.intl.formatMessage({ id: 'MarkdownTemplate-valid-colors' }, {colors: validColors.join(', ')})}
-                 value={color}
-                 fullWidth
-                 error={colorError}
+                label="Text Color"
+                margin="normal"
+                name="color"
+                onBlur={updateCustomConfigVerification}
+                onChange={handleColorChange}
+                placeholder={props.intl.formatMessage({ id: 'MarkdownTemplate-color-placeholder' })}
+                helperText={props.intl.formatMessage({ id: 'MarkdownTemplate-valid-colors' }, {colors: validColors.join(', ')})}
+                value={color}
+                fullWidth
+                error={colorError}
             />
 
-         </React.Fragment>
+        </React.Fragment>
     );
 };
 
