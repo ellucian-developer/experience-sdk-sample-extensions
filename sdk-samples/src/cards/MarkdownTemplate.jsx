@@ -14,10 +14,10 @@ const styles = () => ({
 });
 
 const MarkdownTemplate = (props) => {
-    const { classes, cardInfo: { configuration: { customConfiguration } } } = props;
+    const { classes, cardInfo: { configuration: { customConfiguration = {} } } } = props;
 
     return (
-        <div className={classes.card}>
+        <div className={classes.card} style={{color: customConfiguration.color || 'black'}}>
             <ReactMarkdown>{customConfiguration.markdown}</ReactMarkdown>
         </div>
     );
