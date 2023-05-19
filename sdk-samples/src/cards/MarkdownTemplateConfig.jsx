@@ -30,11 +30,13 @@ const MarkdownTemplateConfig = (props) => {
     // interacted with
     useEffect(() => {
         updateCustomConfigVerification();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     // update the custom configuration whenever any values change
     useEffect(() => {
         updateCustomConfig();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [markdown, color]);
 
 

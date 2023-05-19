@@ -43,6 +43,7 @@ const DrilldownCard = (props) => {
                 }, intl.formatMessage({ id: 'DrilldownCard-clicks' }, { count }));
             }
         },
+        // eslint-disable-next-line react-hooks/exhaustive-deps
         [ inDetail ]
     );
 

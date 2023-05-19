@@ -52,6 +52,7 @@ const CacheCard = (props) => {
         // load and increment view count
         incrementCount();
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (
