@@ -52,9 +52,6 @@ const MarkdownTemplateConfig = (props) => {
 
     const updateCustomConfig = () => {
 
-        console.log(`markdown: ${markdown}`);
-        console.log(`color: ${color}`);
-
         setCustomConfiguration({
             customConfiguration: {
                 client: {
