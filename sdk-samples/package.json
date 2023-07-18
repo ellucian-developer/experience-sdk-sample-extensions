@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/ellucian-developer/experience-sdk-sample-extensions"
   },
-  "version": "7.2.0",
+  "version": "7.3.0",
   "description": "Description of sdk-samples",
   "main": "index.js",
   "license": "Apache 2.0",
@@ -36,7 +36,7 @@
     "@babel/plugin-transform-runtime": "7.12.1",
     "@babel/preset-env": "7.12.1",
     "@babel/preset-react": "7.12.1",
-    "@ellucian/experience-extension": "https://cdn.elluciancloud.com/assets/SDK/7.2.0/ellucian-experience-extension-7.2.0.tgz",
+    "@ellucian/experience-extension": "https://cdn.elluciancloud.com/assets/SDK/7.3.0/ellucian-experience-extension-7.3.0.tgz",
     "@wojtekmaj/enzyme-adapter-react-17": "0.6.7",
     "babel-plugin-rewire": "1.2.0",
     "cross-env": "7.0.2",
