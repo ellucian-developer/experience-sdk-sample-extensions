@@ -19,9 +19,9 @@
     "test": "cross-env BABEL_ENV=test JEST_JUNIT_OUTPUT=./report.xml jest --coverage"
   },
   "dependencies": {
-    "@ellucian/ds-icons": "https://cdn.elluciancloud.com/assets/EDS2/7.4.0/umd/path_design_system_icons.tgz",
+    "@ellucian/ds-icons": "https://cdn.elluciancloud.com/assets/EDS2/7.5.0/umd/path_design_system_icons.tgz",
     "@ellucian/experience-extension-utils": "https://cdn.elluciancloud.com/assets/SDK/utils/1.0.0/ellucian-experience-extension-utils-1.0.0.tgz",
-    "@ellucian/react-design-system": "https://cdn.elluciancloud.com/assets/EDS2/7.4.0/umd/path_design_system.tgz",
+    "@ellucian/react-design-system": "https://cdn.elluciancloud.com/assets/EDS2/7.5.0/umd/path_design_system.tgz",
     "classnames": "2.2.6",
     "date-fns": "2.29.3",
     "prop-types": "15.7.2",
@@ -56,7 +56,7 @@
     "jest-junit": "13.0.0",
     "jsonpath": "1.1.1",
     "rewiremock": "3.14.3",
-    "webpack": "5.69.1",
+    "webpack": "5.76.0",
     "webpack-cli": "4.10.0",
     "webpack-dev-server": "4.7.4"
   }
