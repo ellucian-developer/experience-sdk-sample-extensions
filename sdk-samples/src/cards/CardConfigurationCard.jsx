@@ -27,10 +27,12 @@ const CardConfigurationCard = (props) => {
 
     if (configuration) {
         Object.keys(configuration).forEach((key) => {
-            configurationItems.push({
-                key,
-                value: configuration[key]
-            });
+            if (typeof configuration[key] === 'string' || typeof configuration[key] === 'number') {
+                configurationItems.push({
+                    key,
+                    value: configuration[key]
+                });
+            }
         });
     }
 
