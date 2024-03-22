@@ -44,11 +44,11 @@ const PropsPage = (props) => {
 
     return (
         <div className={classes.card}>
-            <Typography variant={'h2'}>
+            <Typography variant="h2" component="h3">
                 Properties
             </Typography>
             <pre className={classes.card}>{JSON.stringify(props, undefined, 3)}</pre>
-            <Typography variant={'h2'}>
+            <Typography variant="h2" component="h3">
                 Hooks
             </Typography>
             <pre className={classes.card}> useCache {JSON.stringify(useCache(), undefined, 3)}</pre>
