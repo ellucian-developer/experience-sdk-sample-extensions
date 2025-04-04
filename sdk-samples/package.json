@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/ellucian-developer/experience-sdk-sample-extensions"
   },
-  "version": "7.14.0",
+  "version": "7.15.0",
   "description": "Description of sdk-samples",
   "main": "index.js",
   "license": "Apache 2.0",
