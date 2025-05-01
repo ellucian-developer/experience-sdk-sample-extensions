@@ -1,7 +1,7 @@
 Ellucian © 2023 Ellucian Company L.P. and its affiliates
 
 ## experience-sdk-sample-extensions
-This repository is compiled of Experience extension sample cards meant to be used in conjunction with the Ellucian Experience SDK (Software Development Kit). These samples cards are located within the src/cards folder. Intended to be used by developers who want to learn how to build Experience extensions, these examples are provided as a resource to understand how react hooks, props, and UI components behave inside of an extension. 
+This repository is compiled of Experience extension sample cards meant to be used in conjunction with the [Ellucian Experience SDK (Software Development Kit)](https://resources.elluciancloud.com/bundle/ellucian_experience/page/c_create_content_sdk.html). These samples cards are located within the src/cards folder. Intended to be used by developers who want to learn how to build Experience extensions, these examples are provided as a resource to understand how react hooks, props, and UI components behave inside of an extension. 
 
 To learn more about how to use these sample extensions, follow the [Ellucian Toolkit Developer Community Forum](https://ellucian.service-now.com/community?id=community_forum&sys_id=e73389abdb4f5c50c23a3cae7c961913) or visit the Ellucian Experience Resource Center. 
 
