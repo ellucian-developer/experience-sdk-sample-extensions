@@ -1,7 +1,6 @@
 import { Button, TextField, Typography } from '@ellucian/react-design-system/core';
 import { withStyles } from '@ellucian/react-design-system/core/styles';
 import { spacing20, spacing40 } from '@ellucian/react-design-system/core/styles/tokens';
-import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import { useIntl } from 'react-intl';
 import { withIntl } from '../utils/ReactIntlProviderWrapper';
@@ -37,13 +36,9 @@ class ErrorMessageCard extends React.Component {
     }
 }
 
-ErrorMessageCard.propTypes = {
-    cardControl: PropTypes.object.isRequired,
-    classes: PropTypes.object,
-    intl: PropTypes.object
-};
-
-export default withIntl(withStyles(styles)(ErrorMessageCard));
+export default withIntl(withStyles(ErrorMessageCard, styles, {
+    name: 'ErrorMessageCard'
+}));
 
 /**
  * Collects the attributes of the error message
@@ -148,9 +143,4 @@ const ErrorMessage = (props) => {
             </Button>
         </div>
     );
-};
-
-ErrorMessage.propTypes = {
-    setErrorMessage: PropTypes.func.isRequired,
-    classes: PropTypes.object
 };

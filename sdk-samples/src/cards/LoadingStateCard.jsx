@@ -1,7 +1,6 @@
 import { Button, Typography } from '@ellucian/react-design-system/core';
 import { withStyles } from '@ellucian/react-design-system/core/styles';
 import { spacing40 } from '@ellucian/react-design-system/core/styles/tokens';
-import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import { useIntl } from 'react-intl';
 import { withIntl } from '../utils/ReactIntlProviderWrapper';
@@ -32,13 +31,9 @@ class LoadingStateCard extends React.Component {
     }
 }
 
-LoadingStateCard.propTypes = {
-    cardControl: PropTypes.object.isRequired,
-    classes: PropTypes.object.isRequired,
-    intl: PropTypes.object
-};
-
-export default withIntl(withStyles(styles)(LoadingStateCard));
+export default withIntl(withStyles(LoadingStateCard, styles, {
+    name: 'LoadingStateCard'
+}));
 
 /**
  * Renders a button that puts the card in a "loading" state for 10 seconds.
@@ -88,8 +83,4 @@ const LoadingButton = (props) => {
             </Button>
         </div>
     );
-};
-
-LoadingButton.propTypes = {
-    setLoadingStatus: PropTypes.func.isRequired
 };

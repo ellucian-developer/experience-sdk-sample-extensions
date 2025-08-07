@@ -1,6 +1,5 @@
-import React from 'react';
 import CacheCard from '../../cards/CacheCard';
-import { mountWithExtensionProps } from '../../utils/test-utils/enzymeUtil';
+import { renderWithExtensionProps, screen } from '../../utils/test-utils/testUtils';
 
 describe('<CacheCard', () => {
     it('Pulls data from cache', () => {
@@ -11,7 +10,7 @@ describe('<CacheCard', () => {
             storeItem: jest.fn()
         };
 
-        const card = mountWithExtensionProps(<CacheCard cache={mockCacheFunctions} />);
-        expect(card.text().includes('View Count: 1')).toBe(true);
+        renderWithExtensionProps(<CacheCard cache={mockCacheFunctions} />);
+        expect(screen.getByText('View Count: 1')).toBeInTheDocument();
     });
 });

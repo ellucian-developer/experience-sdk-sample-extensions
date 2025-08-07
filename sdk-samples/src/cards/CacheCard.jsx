@@ -1,7 +1,6 @@
 import { Button, Typography } from '@ellucian/react-design-system/core';
 import { withStyles } from '@ellucian/react-design-system/core/styles';
-import PropTypes from 'prop-types';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useIntl } from 'react-intl';
 import { withIntl } from '../utils/ReactIntlProviderWrapper';
 
@@ -67,9 +66,6 @@ const CacheCard = (props) => {
     );
 };
 
-CacheCard.propTypes = {
-    classes: PropTypes.object.isRequired,
-    cache: PropTypes.object.isRequired
-};
-
-export default withIntl(withStyles(styles)(CacheCard));
+export default withIntl(withStyles(CacheCard, styles, {
+    name: 'CacheCard'
+}));

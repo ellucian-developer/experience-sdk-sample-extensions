@@ -10,9 +10,9 @@ module.exports = {
             type: 'url',
             required: true
         }, {
-            'key': 'extension-client-text',
-            'label': 'extension client text',
-            'type': 'text'
+            key: 'extension-client-text',
+            label: 'extension client text',
+            type: 'text'
         }, {
             key: 'extension-client-password',
             label: 'extension client password',

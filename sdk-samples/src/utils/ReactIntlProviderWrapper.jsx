@@ -1,6 +1,5 @@
 import React from 'react';
 import { injectIntl, IntlProvider } from 'react-intl';
-import PropTypes from 'prop-types';
 import { getMessages } from '../i18n/intlUtility';
 
 /**
@@ -30,9 +29,7 @@ export function withIntl(Component) {
             );
         }
     }
-    WithIntl.propTypes = {
-        userInfo: PropTypes.object
-    };
+
     WithIntl.displayName = `WithIntl(${Component.displayName})`;
     return WithIntl;
 }

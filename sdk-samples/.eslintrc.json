@@ -6,6 +6,7 @@
     "plugin:import/warnings",
     "plugin:jsx-a11y/recommended",
     "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
     "plugin:react-hooks/recommended",
     "plugin:jest/recommended"
   ],
@@ -58,6 +59,7 @@
         "error",
         "unix"
     ],
+    "react/prop-types": 0,
     "quotes": [
         "error",
         "single"

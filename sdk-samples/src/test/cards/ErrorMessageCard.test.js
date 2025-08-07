@@ -1,13 +1,14 @@
-import React from 'react';
 import ErrorMessageCard from '../../cards/ErrorMessageCard';
-import { mountWithExtensionProps } from '../../utils/test-utils/enzymeUtil';
-import { shallow } from 'enzyme';
+import { renderWithExtensionProps }  from '../../utils/test-utils/testUtils';
+import { screen, render } from '@testing-library/react';
+import { userEvent } from '@testing-library/user-event';
 
 describe('<ErrorMessageCard>', () => {
     it('Loads with error', () => {
+        const card = renderWithExtensionProps(<ErrorMessageCard />);
+        userEvent.click(screen.findByRole('button'));
 
-        const card = mountWithExtensionProps(<ErrorMessageCard />);
-        card.find('button').simulate('click');
-        expect(() => shallow(<ErrorMessageCard />)).toThrowError();
+        // React Testing Library approach to test for rendering errors
+        expect(() => card.rerender(<ErrorMessageCard />)).toThrow();
     });
 });

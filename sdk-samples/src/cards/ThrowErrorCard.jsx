@@ -1,5 +1,4 @@
 import { ButtonGroup, Button } from '@ellucian/react-design-system/core';
-import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import { useIntl } from 'react-intl';
 import { withIntl } from '../utils/ReactIntlProviderWrapper';
@@ -57,10 +56,6 @@ const ThrowErrorCard = (props) => {
             )}
         </React.Fragment>
     );
-};
-
-ThrowErrorCard.propTypes = {
-    cardControl: PropTypes.object
 };
 
 export default withIntl(ThrowErrorCard);

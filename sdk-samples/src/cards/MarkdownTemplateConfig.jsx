@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
 import { TextField} from '@ellucian/react-design-system/core';
 import { withIntl } from '../utils/ReactIntlProviderWrapper';
 
@@ -123,12 +122,6 @@ const MarkdownTemplateConfig = (props) => {
 
         </React.Fragment>
     );
-};
-
-MarkdownTemplateConfig.propTypes = {
-    cardControl: PropTypes.object,
-    cardInfo: PropTypes.object,
-    intl: PropTypes.object
 };
 
 export default withIntl(MarkdownTemplateConfig);

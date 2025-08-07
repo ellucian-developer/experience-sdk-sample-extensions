@@ -1,8 +1,6 @@
 import { withStyles } from '@ellucian/react-design-system/core/styles';
 import { spacing40 } from '@ellucian/react-design-system/core/styles/tokens';
 import { Typography, TextLink, useDateLocale } from '@ellucian/react-design-system/core';
-import PropTypes from 'prop-types';
-import React from 'react';
 import {
     useCache,
     useCardInfo,
@@ -74,8 +72,6 @@ const PropsCard = (props) => {
     );
 };
 
-PropsCard.propTypes = {
-    classes: PropTypes.object.isRequired
-};
-
-export default withStyles(styles)(PropsCard);
+export default withStyles(PropsCard, styles, {
+    name: 'PropsCard'
+});

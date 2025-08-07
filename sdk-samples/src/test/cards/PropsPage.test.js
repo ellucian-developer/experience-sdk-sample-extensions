@@ -1,18 +1,17 @@
-import React from 'react';
 import PropsPage from '../../page/index';
-import { shallow } from 'enzyme';
+// import { shallow } from 'enzyme';
+import { renderWithExtensionProps, screen } from '../../utils/test-utils/testUtils';
 
 describe('<PropsPage>', () => {
     it('Loads props page', () => {
 
-        const ContextProvider = React.createContext({});
+        renderWithExtensionProps(<PropsPage />);
 
-        const wrapper = shallow(
-            <ContextProvider.Provider>
-                <PropsPage />
-            </ContextProvider.Provider>
-        )
+        // look for output of useData hook
+        expect(screen.getByText(/"someData": "test-data"/i)).toBeInTheDocument();
 
-        expect(wrapper.find('pre').exists());
+        // look for out of the useDashboardInfo hook
+        expect(screen.getByText(/"id": "test-dashboard/i)).toBeInTheDocument();
+
     })
 })

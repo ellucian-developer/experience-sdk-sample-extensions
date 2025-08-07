@@ -1,6 +1,5 @@
-import React from 'react';
 import CardConfigurationCard from '../../cards/CardConfigurationCard';
-import { mountWithExtensionProps } from '../../utils/test-utils/enzymeUtil';
+import { renderWithExtensionProps, screen } from '../../utils/test-utils/testUtils';
 
 describe('<CardConfigurationCard>', () => {
     it('Loads with configuration values', () => {
@@ -12,8 +11,8 @@ describe('<CardConfigurationCard>', () => {
             }
         };
 
-        const card = mountWithExtensionProps(<CardConfigurationCard cardInfo={mockCardInfo} />);
-        expect(card.prop('cardInfo').configuration.mockLabel).toEqual('mock-url-label');
-        expect(card.prop('cardInfo').configuration.mockUrl).toEqual('https://mockurl');
+        renderWithExtensionProps(<CardConfigurationCard cardInfo={mockCardInfo} />);
+        expect(screen.getByText('mock-url-label')).toBeInTheDocument();
+        expect(screen.getByText('https://mockurl')).toBeInTheDocument();
     });
 });
