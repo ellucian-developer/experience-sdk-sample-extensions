@@ -1,5 +1,4 @@
 import PropsPage from '../../page/index';
-// import { shallow } from 'enzyme';
 import { renderWithExtensionProps, screen } from '../../utils/test-utils/testUtils';
 
 describe('<PropsPage>', () => {
