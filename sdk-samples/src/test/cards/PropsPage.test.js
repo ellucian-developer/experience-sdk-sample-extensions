@@ -9,7 +9,7 @@ describe('<PropsPage>', () => {
         // look for output of useData hook
         expect(screen.getByText(/"someData": "test-data"/i)).toBeInTheDocument();
 
-        // look for out of the useDashboardInfo hook
+        // look for output of  useDashboardInfo hook
         expect(screen.getByText(/"id": "test-dashboard/i)).toBeInTheDocument();
 
     })
