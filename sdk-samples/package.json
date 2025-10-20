@@ -9,7 +9,7 @@
   "main": "index.js",
   "license": "Apache 2.0",
   "engines": {
-      "node": ">=20.18.1"
+    "node": ">=20.18.1"
   },
   "scripts": {
     "lint": "npx eslint --ext .jsx,.js src",
@@ -22,9 +22,9 @@
     "test": "cross-env BABEL_ENV=test JEST_JUNIT_OUTPUT=./report.xml jest --coverage"
   },
   "dependencies": {
-    "@ellucian/ds-icons": "https://cdn.elluciancloud.com/assets/EDS2/8.0.0/umd/path_design_system_icons.tgz",
+    "@ellucian/ds-icons": "https://cdn.elluciancloud.com/assets/EDS2/8.1.0/umd/path_design_system_icons.tgz",
     "@ellucian/experience-extension-utils": "https://cdn.elluciancloud.com/assets/SDK/utils/1.0.0/ellucian-experience-extension-utils-1.0.0.tgz",
-    "@ellucian/react-design-system": "https://cdn.elluciancloud.com/assets/EDS2/8.0.0/umd/path_design_system.tgz",
+    "@ellucian/react-design-system": "https://cdn.elluciancloud.com/assets/EDS2/8.1.0/umd/path_design_system.tgz",
     "classnames": "2.2.6",
     "date-fns": "2.29.3",
     "react": "19.0.0",
@@ -34,26 +34,25 @@
     "react-router-dom": "5.2.0"
   },
   "devDependencies": {
-    "@babel/eslint-parser": "7.27.1",
     "@babel/plugin-transform-runtime": "7.27.3",
     "@babel/preset-env": "7.27.2",
     "@babel/preset-react": "7.27.1",
+    "@ellucian/experience-extension": "8.0.0-SNAPSHOT.20251017.175659Z",
+    "@eslint/js": "9.33.0",
     "@testing-library/dom": "10.4.0",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "16.3.0",
     "@testing-library/user-event": "14.6.1",
-    "@ellucian/experience-extension": "file:../../experience-extension-source/ellucian-experience-extension-99.0.0.tgz",
     "babel-jest": "29.7.0",
     "babel-plugin-rewire": "1.2.0",
     "cross-env": "7.0.2",
     "dotenv": "8.2.0",
     "enzyme": "3.11.0",
-    "eslint": "8.8.0",
-    "eslint-plugin-import": "2.25.4",
-    "eslint-plugin-jest": "26.1.1",
-    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint": "9.33.0",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-jsx-a11y": "6.10.2",
     "eslint-plugin-react": "7.37.5",
-    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react-hooks": "5.2.0",
     "expect": "26.6.2",
     "fs-extra": "9.0.1",
     "identity-obj-proxy": "3.0.0",
@@ -66,5 +65,10 @@
     "webpack": "5.76.0",
     "webpack-cli": "4.10.0",
     "webpack-dev-server": "4.7.4"
+  },
+  "overrides": {
+    "@ellucian/react-design-system": {
+      "@tanstack/react-virtual": "3.11.3"
+    }
   }
 }
