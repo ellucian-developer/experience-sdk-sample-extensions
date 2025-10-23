@@ -57,7 +57,7 @@ const LoadingButton = (props) => {
         setLoadingStatus(true);
 
         // create an artificial delay
-        setTimeout(reset, 10000);
+        window.setTimeout(reset, 10000);
 
     }
 

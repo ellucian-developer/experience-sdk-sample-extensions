@@ -27,6 +27,7 @@ const ThrowErrorCard = (props) => {
     const throwExtensionError = () => {
         try {
             console.log(window.accessing.undefinedVariable);
+        // eslint-disable-next-line no-unused-vars
         } catch (error) {
 
             // use the SDK to post an error message in the card

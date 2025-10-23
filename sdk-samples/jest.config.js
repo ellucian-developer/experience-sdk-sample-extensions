@@ -9,9 +9,6 @@ module.exports = {
     ],
     coverageDirectory: 'coverage',
     setupFilesAfterEnv: ['<rootDir>/config/setupTests.js'],
-    setupFiles: [
-        'raf/polyfill'
-    ],
     testEnvironment: 'jsdom',
     coverageReporters: [
         'lcov', 'text', 'cobertura'
