@@ -16,3 +16,5 @@ server_report.xml
 client_report.xml
 tmp
 .vscode
+.eslintcache
+package-lock.json
