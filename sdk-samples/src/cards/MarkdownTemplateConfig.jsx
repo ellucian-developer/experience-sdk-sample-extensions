@@ -74,7 +74,7 @@ const MarkdownTemplateConfig = (props) => {
         }
 
         // if a color was entered, make sure it's valid
-        if (color !== undefined && color.length > 0 && !validColors.includes(color)) {
+        if (color && color.length > 0 && !validColors.includes(color)) {
             errorCount++;
             invalidColor = true;
         }
