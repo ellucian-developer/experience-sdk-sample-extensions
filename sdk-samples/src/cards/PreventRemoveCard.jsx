@@ -1,7 +1,6 @@
 import { Switch, Typography } from '@ellucian/react-design-system/core';
 import { withStyles } from '@ellucian/react-design-system/core/styles';
 import { spacing40 } from '@ellucian/react-design-system/core/styles/tokens';
-import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import { withIntl } from '../utils/ReactIntlProviderWrapper';
 
@@ -32,13 +31,9 @@ class PreventRemoveCard extends React.Component {
     }
 }
 
-PreventRemoveCard.propTypes = {
-    cardControl: PropTypes.object.isRequired,
-    classes: PropTypes.object.isRequired,
-    intl: PropTypes.object
-};
-
-export default withIntl(withStyles(styles)(PreventRemoveCard));
+export default withIntl(withStyles(PreventRemoveCard, styles, {
+    name: 'PreventRemoveCard'
+}));
 
 
 /**
@@ -68,9 +63,4 @@ const TogglePreventRemove = (props) => {
             onChange={toggleSwitch}
         />
     );
-};
-
-TogglePreventRemove.propTypes = {
-    setPreventRemove: PropTypes.func.isRequired,
-    setPreventRemoveMessage: PropTypes.func.isRequired
 };

@@ -1,8 +1,7 @@
 import { Dropdown, DropdownItem, List, ListItem, ListItemText, Typography } from '@ellucian/react-design-system/core';
 import { withStyles } from '@ellucian/react-design-system/core/styles';
 import { spacing10, spacing40 } from '@ellucian/react-design-system/core/styles/tokens';
-import PropTypes from 'prop-types';
-import React, { Fragment, useEffect, useState } from 'react';
+import { Fragment, useEffect, useState } from 'react';
 import { withIntl } from '../utils/ReactIntlProviderWrapper';
 import { useIntl } from 'react-intl';
 
@@ -164,12 +163,6 @@ const GraphQLQueryCard = (props) => {
     );
 };
 
-GraphQLQueryCard.propTypes = {
-    cardControl: PropTypes.object.isRequired,
-    classes: PropTypes.object.isRequired,
-    cache: PropTypes.object.isRequired,
-    data: PropTypes.object.isRequired,
-    mockSites: PropTypes.object,
-    mockBuildings: PropTypes.object
-};
-export default withIntl(withStyles(styles)(GraphQLQueryCard));
+export default withIntl(withStyles(GraphQLQueryCard, styles, {
+    name: 'GraphQLQueryCard'
+}));

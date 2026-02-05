@@ -1,9 +1,8 @@
-import React from 'react';
 import ThrowErrorCard from '../../cards/ThrowErrorCard';
-import { shallow } from 'enzyme';
+import { render } from '@testing-library/react';
 
 describe('<ThrowErrorCard>', () => {
     it('Throws an error', () => {
-        expect(() => shallow(<ThrowErrorCard />)).toThrowError();
+        expect(() => render(<ThrowErrorCard />)).toThrow();
     });
 });

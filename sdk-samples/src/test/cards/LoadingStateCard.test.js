@@ -1,17 +1,17 @@
-import React from 'react';
 import LoadingStateCard from '../../cards/LoadingStateCard';
-import { mountWithExtensionProps } from '../../utils/test-utils/enzymeUtil';
+import { renderWithExtensionProps, userEvent, screen } from '../../utils/test-utils/testUtils';
+
 
 describe('<LoadingStateCard>', () => {
-    it('Sets the card to loading', () => {
+    it('Sets the card to loading', async() => {
 
         const mockCardControl = {
             setLoadingStatus: jest.fn()
         };
 
-        const card = mountWithExtensionProps(<LoadingStateCard cardControl={mockCardControl} />);
-        const loadingButton = card.find('button');
-        loadingButton.simulate('click');
-        expect(card.text().includes('Status: loading')).toBe(true);
+        renderWithExtensionProps(<LoadingStateCard cardControl={mockCardControl} />);
+        const loadingButton = screen.getByRole('button');
+        userEvent.click(loadingButton);
+        expect(await screen.findByText('Status: loading')).toBeInTheDocument();
     });
 });

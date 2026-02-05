@@ -1,8 +1,6 @@
 import { withStyles } from '@ellucian/react-design-system/core/styles';
 import { spacing20 } from '@ellucian/react-design-system/core/styles/tokens';
 import { Typography, TextLink } from '@ellucian/react-design-system/core';
-import PropTypes from 'prop-types';
-import React from 'react';
 import {
     useCache,
     useCardInfo,
@@ -64,18 +62,16 @@ const PropsPage = (props) => {
             <pre className={classes.card}> usePageControl {JSON.stringify(usePageControl(), undefined, 3)}</pre>
             <pre className={classes.card}> usePageInfo {JSON.stringify(usePageInfo(), undefined, 3)}</pre>
             <Typography>
-                For more information regarding hooks and props, visit the
+                For more information regarding hooks and props, visit the&nbsp;
                 <TextLink href="https://resources.elluciancloud.com/bundle/ellucian_experience_acn_use/page/c_props_hooks_sdk.html" target="_blank">
                     Props and Hooks
                 </TextLink>
-                section of the Ellucian Experience SDK documentation.
+                &nbsp;section of the Ellucian Experience SDK documentation.
             </Typography>
         </div>
     );
 };
 
-PropsPage.propTypes = {
-    classes: PropTypes.object.isRequired
-};
-
-export default withIntl(withStyles(styles)(PropsPage));
+export default withIntl(withStyles(PropsPage, styles, {
+    name: 'index'
+}));

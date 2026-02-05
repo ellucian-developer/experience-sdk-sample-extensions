@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import PropTypes from 'prop-types';
 import { TextField} from '@ellucian/react-design-system/core';
 import { withIntl } from '../utils/ReactIntlProviderWrapper';
 
@@ -75,7 +74,7 @@ const MarkdownTemplateConfig = (props) => {
         }
 
         // if a color was entered, make sure it's valid
-        if (color !== undefined && color.length > 0 && !validColors.includes(color)) {
+        if (color && color.length > 0 && !validColors.includes(color)) {
             errorCount++;
             invalidColor = true;
         }
@@ -123,12 +122,6 @@ const MarkdownTemplateConfig = (props) => {
 
         </React.Fragment>
     );
-};
-
-MarkdownTemplateConfig.propTypes = {
-    cardControl: PropTypes.object,
-    cardInfo: PropTypes.object,
-    intl: PropTypes.object
 };
 
 export default withIntl(MarkdownTemplateConfig);

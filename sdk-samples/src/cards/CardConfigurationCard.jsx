@@ -1,8 +1,7 @@
 import { Typography } from '@ellucian/react-design-system/core';
 import { withStyles } from '@ellucian/react-design-system/core/styles';
 import { spacing40 } from '@ellucian/react-design-system/core/styles/tokens';
-import PropTypes from 'prop-types';
-import React, { Fragment } from 'react';
+import { Fragment } from 'react';
 
 const styles = () => ({
     card: {
@@ -52,9 +51,6 @@ const CardConfigurationCard = (props) => {
     );
 };
 
-CardConfigurationCard.propTypes = {
-    classes: PropTypes.object.isRequired,
-    cardInfo: PropTypes.object.isRequired
-};
-
-export default withStyles(styles)(CardConfigurationCard);
+export default withStyles(CardConfigurationCard, styles, {
+    name: 'CardConfigurationCard'
+});

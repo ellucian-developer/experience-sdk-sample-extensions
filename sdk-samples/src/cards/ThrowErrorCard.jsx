@@ -1,5 +1,4 @@
 import { ButtonGroup, Button } from '@ellucian/react-design-system/core';
-import PropTypes from 'prop-types';
 import React, { useState } from 'react';
 import { useIntl } from 'react-intl';
 import { withIntl } from '../utils/ReactIntlProviderWrapper';
@@ -28,6 +27,7 @@ const ThrowErrorCard = (props) => {
     const throwExtensionError = () => {
         try {
             console.log(window.accessing.undefinedVariable);
+        // eslint-disable-next-line no-unused-vars
         } catch (error) {
 
             // use the SDK to post an error message in the card
@@ -57,10 +57,6 @@ const ThrowErrorCard = (props) => {
             )}
         </React.Fragment>
     );
-};
-
-ThrowErrorCard.propTypes = {
-    cardControl: PropTypes.object
 };
 
 export default withIntl(ThrowErrorCard);
