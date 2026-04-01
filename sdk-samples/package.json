@@ -4,7 +4,7 @@
     "type": "git",
     "url": "https://github.com/ellucian-developer/experience-sdk-sample-extensions"
   },
-  "version": "8.0.0",
+  "version": "8.1.0",
   "description": "Description of sdk-samples",
   "main": "index.js",
   "license": "Apache 2.0",
@@ -22,9 +22,9 @@
     "test": "cross-env BABEL_ENV=test JEST_JUNIT_OUTPUT=./report.xml jest --coverage"
   },
   "dependencies": {
-    "@ellucian/ds-icons": "https://cdn.elluciancloud.com/assets/EDS2/8.2.2/umd/path_design_system_icons.tgz",
-    "@ellucian/experience-extension-utils": "https://cdn.elluciancloud.com/assets/SDK/utils/1.0.0/ellucian-experience-extension-utils-1.0.0.tgz",
-    "@ellucian/react-design-system": "https://cdn.elluciancloud.com/assets/EDS2/8.2.2/umd/path_design_system.tgz",
+    "@ellucian/ds-icons": "https://cdn.elluciancloud.com/assets/EDS2/8.4.0/umd/path_design_system_icons.tgz",
+    "@ellucian/experience-extension-utils": "https://cdn.elluciancloud.com/assets/SDK/utils/1.1.0/ellucian-experience-extension-utils-1.1.0.tgz",
+    "@ellucian/react-design-system": "https://cdn.elluciancloud.com/assets/EDS2/8.4.0/umd/path_design_system.tgz",
     "classnames": "2.2.6",
     "date-fns": "2.29.3",
     "react": "19.0.3",
@@ -37,7 +37,7 @@
     "@babel/plugin-transform-runtime": "7.27.3",
     "@babel/preset-env": "7.27.2",
     "@babel/preset-react": "7.27.1",
-    "@ellucian/experience-extension": "https://cdn.elluciancloud.com/assets/SDK/8.0.1/ellucian-experience-extension-8.0.1.tgz",
+    "@ellucian/experience-extension": "https://cdn.elluciancloud.com/assets/SDK/8.1.2/ellucian-experience-extension-8.1.2.tgz",
     "@eslint/js": "9.33.0",
     "@testing-library/dom": "10.4.0",
     "@testing-library/jest-dom": "6.6.3",
